@@ -15,7 +15,7 @@ Deep Learning(Python)  | &spades; &spades;  | [DL](https://github.com/PeterWrigh
 Computer Architecture(VHL) | &spades; &spades; &spades;  | [CA](https://github.com/PeterWrighten/ComputerArchitecture)
 Computer Networking(Python)  | &spades; &spades; &spades;  | [CNET](https://github.com/PeterWrighten/ComputerNetworking)
 Operating System(Unix)  | &spades; &spades; &spades; | [OS](https://github.com/PeterWrighten/OperatingSystem)
-Database  | &spades; &spades; &spades;  |  [DB](https://github.com/PeterWrighten/Database)
+Database(SQL)  | &spades; &spades; &spades;  |  [DB](https://github.com/PeterWrighten/Database)
 
 ## Projects
  The Coding is the most important for Undergraduate major in CS, So I wanna implement some Projects to exercise it.
