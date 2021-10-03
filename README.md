@@ -21,3 +21,11 @@ Database(SQL)  | &spades; &spades; &spades;  |  [DB](https://github.com/PeterWri
  The Coding is the most important for Undergraduate major in CS, So I wanna implement some Projects to exercise it.
 
  [**Projects**](https://github.com/PeterWrighten/Some_Proj)
+
+## Extension
+ As a student major in CS, I exactly understand the importance of Open Source and self-study.
+ So It is necesssary for me to seek some excellent OCW courses and study it by myself.
+
+ I would do this job in this Repo:
+
+ [Excellent_OCW](https://github.com/PeterWrighten/Excellent_OCW)
