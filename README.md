@@ -16,6 +16,7 @@ Computer Architecture(VHL) | &spades; &spades; &spades;  | [CA](https://github.c
 Computer Networking(Python)  | &spades; &spades; &spades;  | [CNET](https://github.com/PeterWrighten/ComputerNetworking)
 Operating System(Unix)  | &spades; &spades; &spades; | [OS](https://github.com/PeterWrighten/OperatingSystem)
 Database(SQL)  | &spades; &spades; &spades;  |  [DB](https://github.com/PeterWrighten/Database)
+Compiler(C)  | &spades; &spades; &spades;  | [CP](https://github.com/PeterWrighten/Compiler) 
 
 ## Projects
  The Coding is the most important for Undergraduate major in CS, So I wanna implement some Projects to exercise it.
