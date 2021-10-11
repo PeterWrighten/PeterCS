@@ -1,43 +1,52 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdlib.h>
+#include <stdio.h>
 
-typedef struct LIST{
-	int data;
-	struct LIST *next;
-}LIST;
+typedef struct cell{
+	int element;
+	struct cell *next;
+} CELL;
 
-void *push(int x, LIST *top){
-	LIST *p, *q;
-  p = malloc(sizeof(LIST));
-  if(p == NULL){
-	  fprintf(stderr, "Memory is not enough!\n");
-  }
-  q = top;
-  top = p;
-   if(x == 0){
-	   exit(1);
-   }
-   p->data = x;
-   p->next = q->next;
-   q->next = p;
-   return(top);
-   printf("Finished Input %d\n",p->data);
-
+void *push(int x, CELL *init){
+	CELL *q, *r;
+	r = malloc(sizeof(CELL));
+	q = init;
+	init = r;
+	init->element = x;
+	init->next = q;
+	return(init);
 }
 
-void *pop(LIST *top, LIST *ptr){
-	top->next = ptr->next;
-	free(ptr);
-	printf("Completed! \n");
-
+void *pop(CELL *init){
+	CELL *q;
+	if(init != NULL){
+		q = init;
+		init = init->next;
+		free(q);
+		return(init);
+	}else{
+		printf("Stack Underflow!\n");
+		exit(1);
+	}
 }
 
+void printstack(CELL *init){
+	CELL *p;
+	p = init;
+	printf("\t");
+	printf("Stack:[");
+
+	while(p != NULL){
+		printf("%d ",p->element);
+		p = p->next;
+	}
+	printf("]\n");
+	fflush(stdout);
+}
 
 int main(){
-	int x;
-	int y;
-	LIST *top, *ptr;
-	top = NULL;
+	CELL *init, *q;
+	int i, x;
+	init = NULL;
 	A:
 	printf("**********************\n");
 	printf("What do you want to do?\n");
@@ -49,23 +58,42 @@ int main(){
 	scanf("%d",&x );
 	switch(x){
 		case 1:
-		printf("Input data you want to push> \n");
-	    scanf("%d",&y);
-	    top = push(y, top);
-
+		while(1){
+		  printf("input> ");
+		  scanf("%d",&x);
+		  if(x == 0){
+			  break;
+		  }
+		  init = push(x,init);
+		  printstack(init);
+	  }
 		 goto A;
+
 		case 2:
-		  pop(top, ptr);
+		i = 1;
+	    q = init;
+	    while(q != NULL){
+		  printf("pop %d times to pop",i,init->element);
+		  init = pop(init);
+		  q = init;
+		  i++;
+		  printstack(init);
+	    }
 		  goto A;
+
 		case 3:
+		  printstack(init);
 		  goto A;
+
 		case 4:
 		  break;
 		  return 0;
+
 		default:
 		  printf("Input correct number !\n");
 		  goto A;
+}
 
-		}
 
+	return 0;
 }
