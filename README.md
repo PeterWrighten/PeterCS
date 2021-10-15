@@ -1,5 +1,7 @@
 # Peter's Computer Science
 
+![MIT](https://img.shields.io/badge/License-MIT-red.svg)
+
  A Roadmap To Be A Master Of Computer Science Powered by Peter.
 
 ## Courses
