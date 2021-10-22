@@ -97,4 +97,12 @@ $ git checkout --<file> <-- recover to previous "git add"
 
 $ git checkout -<branch> <-- change branch
 ```
-a
+* Remote Repository
+
+* Cryptography
+
+>ssh-keygen is a standard component of the Secure Shell (SSH) protocol suite found on Unix, Unix-like and Microsoft Windows computer systems used to establish secure shell sessions between remote computers over insecure networks, through the use of various cryptographic techniques. The ssh-keygen utility is used to generate, manage, and convert authentication keys.
+
+```
+$ ssh-keygen -t rsa -C "youemail@.com"
+```
