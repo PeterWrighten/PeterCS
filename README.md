@@ -4,6 +4,12 @@
 
  A Roadmap To Be A Master Of Computer Science Powered by Peter.
 
+## Prerequisites
+
+>With the study of Computer Science, I gradually realise that it is indispensable to take some prerequisites when you wanna begin to learn/research a specific field. Thus I set up A CORNER to focus on doing these dirty jobs.
+
+[**Prerequisites**](https://github.com/PeterWrighten/Peter_CS/blob/main/Prerequisites/README.md)
+
 ## Courses
 
  There are some foundamental courses(Core Courses) in Computer Science Major. The First is to master these courses and implement them.
