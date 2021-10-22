@@ -60,10 +60,41 @@ Peer1 <--ManageServer--> Peer2
 
 ```
 $ git init xxx
-$ git add xxx
-$ git commit -m "xxx"
+$ git add xxx <-- add from working directory to Temp District(stage)
+$ git commit -m "xxx" <-- commit to repo
+$ git status
+$ git diff
+$ git log --pretty=oneline
 ```
 
 * Windows Trap
 
 When you use Windows's txt to open a text file, it would add a "0xefdd" at head of file automatically...
+
+* Commit ID
+
+Git's commit ID is a very large hexadecimal which is calculated by SHA1.
+
+HEAD(Top pointer)
+HEAD^
+HEAD~100
+```
+$ git reset HEAD^
+$ git reset HEAD^^
+$ git reset HEAD~100
+$ git log
+$ git reflog
+```
+
+* Core
+
+Manage "change", not "file".
+
+```
+$ git checkout --<file> <-- recover to previous "git add"
+
+== git reset HEAD <file>
+
+$ git checkout -<branch> <-- change branch
+```
+a
