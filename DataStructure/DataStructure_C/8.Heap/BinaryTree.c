@@ -26,5 +26,11 @@ tree *search(tree *t, int x){
 tree *insert(tree *t, int j){
 	tree *i = malloc(sizeof(tree));
     i->x = j;
-	
+
+}
+
+int main(){
+	char c;
+	c = getchar();
+	printf("%s", c);
 }
