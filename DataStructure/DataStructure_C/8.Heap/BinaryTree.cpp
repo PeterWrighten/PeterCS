@@ -90,7 +90,13 @@ void binarytree::insert(tree **t, int i, tree *p){
 }
 
 void binarytree::traverse(tree *t){
-	
+	cout<<"This Tree's Data:"<<t->x<<endl;
+	cout<<"Left Subtree's Data:"<<(t->left)->x<<endl;
+	cout<<"Right Subtree's Data:"<<(t->right)->x<<endl;
+}
+
+void binarytree::delete_tree(int i, tree *t){
+	tree *tem = binarytree::search_tree(t, i);
 }
 
 
