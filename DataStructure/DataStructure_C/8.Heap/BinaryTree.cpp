@@ -97,6 +97,44 @@ void binarytree::traverse(tree *t){
 
 void binarytree::delete_tree(int i, tree *t){
 	tree *tem = binarytree::search_tree(t, i);
+	if(tem->left == NULL && tem->right == NULL){
+		delete *tem;
+	}
+	if(tem->left == NULL && tem->right != NULL){
+		if(tem->x < (tem->parent)->x){
+			(tem->right)->parent = tem->parent;
+			(tem->parent)->left = tem->right;
+			delete *tem;
+		}else{
+			(tem->right)->parent = tem->parent;
+			(tem->parent)->right = tem->right;
+			delete *tem;
+		}
+	}
+
+	if(tem->right == NULL && tem->left != NULL){
+		if(tem->x < (tem->parent)->x){
+			(tem->left)->parent = tem->parent;
+			(tem->parent)->left = tem->left;
+			delete *tem;
+		}else{
+			(tem->left)->parent = tem->parent;
+			(tem->parent)->right = tem->left;
+			delete *tem;
+		}
+	}
+
+	if(tem->right != NULL && tem->left != NULL){
+		if(tem->x < (tem->parent)->x){//left
+			(tem->left)->parent = tem->parent;
+			(tem->parent)->left = tem
+			delete *tem;
+		}else{//right
+			(tem->left)->parent = tem->parent;
+			(tem->parent)->right = tem->left;
+		}
+	}
+
 }
 
 
