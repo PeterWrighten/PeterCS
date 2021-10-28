@@ -23,14 +23,49 @@ tree *search(tree *t, int x){
 	}
 }
 
-tree *insert(tree *t, int j){
-	tree *i = malloc(sizeof(tree));
-    i->x = j;
+tree *find_min(tree *t){
+	tree *min;
+	if(t == NULL){
+		return NULL;
+	}
+	min = t;
+	while(min->x != NULL){
+		min = min->left;
+	}
+	return min;
+
+}
+
+tree *find_max(tree *t){
+	tree *max;
+	if(t == NULL){
+		return NULL;
+	}
+	max = t;
+	while(max->x != NULL){
+	max = max->right;
+}
+
+return max;
+}
+
+tree *insert(tree **t, int j, tree *parent){
+	tree *tmp;
+	if(*t == NULL){
+		tmp = malloc(sizeof(tree));
+		tmp->x = j;
+		tmp->parent = parent;
+		*t = tmp;
+		return *t;
+	}
+	if(j < (*t)->x){
+		insert(&((*l)->left), j, *t);
+	}else{
+		insert(&((*l)->right), j, *t);
+	}
 
 }
 
 int main(){
-	char c;
-	c = getchar();
-	printf("%s", c);
+
 }
