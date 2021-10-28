@@ -23,6 +23,7 @@ public:
 	void insert(tree **t, int i, tree *p);
     void delete_tree(int i, tree *t);
 	void traverse(tree *t);
+	void inorder(tree *t);
 };
 
 binarytree::binarytree(){
@@ -34,13 +35,13 @@ tree *binarytree::search_tree(tree *t, int i){
 		return NULL;
 	}
 	if(i == t->x ){
-		return 1;
+		return t;
 	}
 
 	if(i > t->x){
-		binarytree::search_tree(t->right, i);
+		return binarytree::search_tree(t->right, i);
 	}else{
-		binarytree::search_tree(t->left, i);
+		return binarytree::search_tree(t->left, i);
 	}
 
 }
@@ -95,8 +96,24 @@ void binarytree::traverse(tree *t){
 	cout<<"Right Subtree's Data:"<<(t->right)->x<<endl;
 }
 
+void binarytree::inorder(tree *t){
+	tree *tmp;
+	if(t == NULL){
+		return NULL;
+	}
+	while()
+	if((t->left)->x > t->x ){
+		tmp = t->left;
+		t->left = t;
+		t = tmp;
+	}
+}
+
 void binarytree::delete_tree(int i, tree *t){
 	tree *tem = binarytree::search_tree(t, i);
+	if(tem == NULL){
+		return NULL;
+	}
 	if(tem->left == NULL && tem->right == NULL){
 		delete *tem;
 	}
