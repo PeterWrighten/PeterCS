@@ -74,9 +74,23 @@ tree *binarytree::find_max(tree *t){
 }
 
 void binarytree::insert(tree **t, int i, tree *p){
+	tree *tmp;
 	if( *t == NULL ){
-		(*t)->x = i;
+		tmp = new tree;
+		tmp->x = i;
+		tmp->parent = p;
+		*t = tmp;//given value
+		return *t;
 	}
+	if( (*t)->x < i ){
+		binarytree::insert(&((*t)->right),i, *t);
+	}else{
+		binarytree::insert(&((*t)->left),i, *t);
+	}
+}
+
+void binarytree::traverse(tree *t){
+	
 }
 
 
