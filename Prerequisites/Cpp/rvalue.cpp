@@ -42,9 +42,6 @@ public:
 
 	}
 
-
-
-
 	int getSize(){
 		return msize;
 	}
