@@ -15,5 +15,3 @@
 3. All statements in Java must end in a semi-colon.
 4. For code to run we need public static void main(String[] args)
 5. ```public static void main(String[] args)``` should be included in a public class. That also means it shoud be allowed only one public class in a .java file.
-6. The filename of .java must be the same with public class.
-7.
