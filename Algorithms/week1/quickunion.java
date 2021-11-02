@@ -9,6 +9,7 @@ public class Quickunion{
 	}
 
 	public boolean find(int p, int q){
+		
 
 	}
 
