@@ -17,7 +17,7 @@
  Course| Ratings | Info
  --:|--:|--:
 Data Structure & Algorithms (C++) | &spades; &spades; &spades;  | [DSA](https://github.com/PeterWrighten/Peter_CS/blob/main/DataStructure/README.md)
-Algorithms(JAVA) | &spades; &spades; &spades;  | [Algo](https://github.com/PeterWrighten/Peter_CS/tree/main/Algorithms%EF%BC%88JAVA%EF%BC%89)
+Algorithms(JAVA) | &spades; &spades; &spades;  | [Algo](https://github.com/PeterWrighten/Peter_CS/tree/main/Algorithms)
 Machine Learning(Octave)  | &spades; &spades;  | [ML](https://github.com/PeterWrighten/MachineLearning)
 Deep Learning(Python)  | &spades; &spades;  | [DL](https://github.com/PeterWrighten/DeepLearning)
 Computer Architecture(VHL) | &spades; &spades; &spades;  | [CA](https://github.com/PeterWrighten/ComputerArchitecture)

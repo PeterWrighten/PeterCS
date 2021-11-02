@@ -101,10 +101,15 @@ void binarytree::inorder(tree *t){
 	if(t == NULL){
 		return NULL;
 	}
-	while()
-	if((t->left)->x > t->x ){
+
+	if( (t->left)->x > t->x ){
 		tmp = t->left;
 		t->left = t;
+		t = tmp;
+	}
+	if( (t->right)->x < t->x ){
+		tmp = t->right;
+		t->right = t;
 		t = tmp;
 	}
 }
