@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class quickfind{
 	private int[] id;
 	public quickfind(int i){
@@ -33,10 +35,8 @@ public class quickfind{
 
 	public static void main(String[] args){
 		quickfind d = new quickfind(9);
-		d.union(0, 2);
-		d.union(1, 7);
-		d.union(8, 2);
-		d.union(3, 5);
-		d.union(5, 3);
+		Scanner input = new Scanner(System.in);
+		System.out.println()
+
 	}
 }
