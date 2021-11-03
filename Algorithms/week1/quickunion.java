@@ -25,21 +25,32 @@ public class quickunion{
 			System.out.println("Connected! Change another node! ");
 		}else{
 			id[root(p)] = root(q);
-			System.out.println("Dynamic Connectivity: [");
+
 			for(int x = 0; x < id.length; ++x){
-				System.out.println(" ("+ x + "," + id[x] + ") ");
+				int y = x;
+				if(y == root(y)){
+					continue;
+				}else{
+				System.out.println("Tree" + x + ": ");
+				while(y != id[y]){
+					System.out.println(y + "-" );
+					y = id[y];
+				}
+				System.out.println( y + " -- \n");
+				System.out.println("---------------------------\n");
 			}
-			System.out.println(" ]");
+			}
+			System.out.println("+++++++++++++++++++++++++++++++\n");
 		}
 	}
 
 	public static void main(String[] args){
 		quickunion d = new quickunion(9);
-		d.union(0, 2);
-		d.union(1, 7);
-		d.union(8, 2);
-		d.union(3, 5);
+		d.union(3, 2);
+		d.union(4, 5);
 		d.union(5, 3);
+		d.union(7, 5);
+
 	}
 
 
