@@ -1,18 +1,19 @@
-public class quickunion_im{
+public class quickunion_im1{
 	private int[] id;
-	private int[] sz;
-	public quickunion_im(int N){
+
+	public quickunion_im1(int N){
 		id = new int[N];
-		sz = new int[N];
+
 		for(int i = 0; i < id.length; ++i){
 			id[i] = i;
-			sz[i] = 1;
+	
 		}
 
 	}
 
 	public int root(int p){
 		while(id[p] != p){
+			id[p] = id[id[p]];
 			p = id[p];
 
 		}
@@ -28,15 +29,10 @@ public class quickunion_im{
 		if(root(p) == root(q)){
 			System.out.println("Connected! Change another node! ");
 		}else{
-			if(sz[p] < sz[q]){
-				id[root(p)] = root(q);
-				sz[q] += sz[p];
 
-			}else{
-				id[root(q)] = root(p);
-				sz[q] += sz[p];
+			id[root(p)] = root(q);
 
-			}
+
 
 
 
@@ -54,14 +50,14 @@ public class quickunion_im{
 				System.out.println("---------------------------\n");
 
 			}
-			System.out.println("Size: " + sz[x]);
+
 			}
 			System.out.println("+++++++++++++++++++++++++++++++\n");
 		}
 	}
 
 	public static void main(String[] args){
-		quickunion_im d = new quickunion_im(9);
+		quickunion_im1 d = new quickunion_im1(9);
 		d.union(3, 2);
 		d.union(4, 5);
 		d.union(5, 3);
