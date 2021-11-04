@@ -66,3 +66,5 @@ use ```id[i] = id[id[i]]``` in ```root()```.
 |:--:|--:|--:|--:|
 |quick union(worst)| N  | N  | N  |
 |quick union+ |  N | N+MlgN  | N+MlgN  |
+
+# Lecture 2: The Analysis of Algorithms
