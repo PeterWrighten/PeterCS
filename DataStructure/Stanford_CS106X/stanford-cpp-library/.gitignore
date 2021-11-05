@@ -1,0 +1,14 @@
+# Editor droppings
+*~
+*.sw?
+
+# MacOS droppings
+.DS_Store
+
+*.pro.user.*
+*.pro.user
+
+# Build products
+build-*/
+*.app
+*.exe
