@@ -1,5 +1,6 @@
 # Algorithms Powered By Princeton
 
+**[Standard Lib](https://introcs.cs.princeton.edu/java/stdlib/)**
 
 # Lecture 1: Union-Find
 
@@ -68,3 +69,24 @@ use ```id[i] = id[id[i]]``` in ```root()```.
 |quick union+ |  N | N+MlgN  | N+MlgN  |
 
 # Lecture 2: The Analysis of Algorithms
+
+**Reasons to analyze algorithms**
+
+1. Predict performance.
+2. Compare algorithms.
+3. Provide guarantees.
+4. Understand theoretical basis.
+
+**Scientific Method**
+
+1. Observe some feature of the nature world.
+2. Hypothesize a model that is consistent with the observation.
+3. Predict events using the hypothesis.
+4. Verify the predictions by making further observations.
+5. Validate by repeating until the hypothesis and observations.
+
+**Observation**
+
+```java
+Stopwatch();
+```
