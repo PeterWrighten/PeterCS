@@ -31,44 +31,47 @@ void quickfind::_union(int p, int q){
 			id[z] = qid;
 		}
 	}
-	printf("Dynamic Connectivity: [");
+	cout<<"Dynamic Connectivity: ["<<endl;
 	for(int x = 0; x < s; ++x){
-		printf(" ( %d , %d ) ", x, id[x]);
+		cout<<"("<<x<<" , "<<id[x]<<")"<<endl;
 	}
-	printf(" ]");
+	cout<<" ]"<<endl;
 }
 
 int main(){
 	int x, p, q, y;
 	A:
-	printf("Input Size of Dynamic Connectivity(less than 10000): ");
-	scanf("%d",&x);
+	cout<<"Input Size of Dynamic Connectivity(less than 10000): "<<endl;
+	cin>>x;
 	quickfind d(x);
-	printf("Input your two nodes you wanna manipulate > p, q: ");
-	scanf("%d, %d", &p, &q);
+
 	B:
-	printf("Select operation: \n");
-	printf("------------------------------------------\n");
-	printf("0. Restart\n");
-    printf("1. Union(p, q)\n");
-	printf("2. Find(p, q)\n");
-	printf("------------------------------------------\n");
-	printf(">> ");
-	scanf("%d",&y);
+	cout<<"Select operation: \n"<<endl;
+	cout<<"------------------------------------------\n"<<endl;
+	cout<<"0. Restart\n"<<endl;
+    cout<<"1. Union(p, q)\n"<<endl;
+	cout<<"2. Find(p, q)\n"<<endl;
+	cout<<"------------------------------------------\n"<<endl;
+	cout<<">> "<<endl;
+	cin>>y;
 	switch(y){
 		case 0 :
 		  goto A;
 
 		case 1 :
+		  cout<<"Input your two nodes you wanna manipulate > p, q: "<<endl;
+	      cin >> p >> q;
 		  d._union(p, q);
 		  goto B;
 
 		case 2 :
+		  cout<<"Input your two nodes you wanna manipulate > p, q: "<<endl;
+	      cin >> p >> q;
 		  bool c = d.find(p, q);
 		  if(c == true){
-			  printf("Connected!");
+			  cout<<"Connected!"<<endl;
 		  }else{
-			  printf("Unconnected!");
+			  cout<<"Unconnected!"<<endl;
 		  }
 		  goto B;
 

@@ -88,5 +88,59 @@ use ```id[i] = id[id[i]]``` in ```root()```.
 **Observation**
 
 ```java
-Stopwatch();
+Stopwatch();//Princeton STL
 ```
+
+**Mathematic Model**
+
+$$RunningTime = Frequency \times Cost$$
+
+
+> Simplifying the calculations
+
+* Cost Model
+Use some basic operation as a proxy for running time.
+
+* Tilde Notation
+Estimate running time (or memory) as a function of input size N.
+
+Ignore lower order terms.
+- when N is large, terms are negligible.
+- when N is small, we don't care.
+
+Estimate as Discrete Math Model:
+
+$$\sum_N i = \int_0^N xdx = \sim N^2$$
+$$\sum_N\sum_N\sum_N i= \int_0^N (\int_0^z (\int_0^yxdx)dy)dz = \sim N^4$$
+
+**Order-of-growth**
+
+The small set of functions:
+
+$1, \log N, N, NlogN, N^2, N^3,$ and $2^N$
+
+suffices to describe ordered-of-growth of typical algorithms.
+
+![1636101405640](/assets/1636101405640.jpg)
+
+* Common order-of-growth classifications
+
+|Order of Growth|Name|Typical code framework|description|example|
+|:--:|:--:|--:|--:|--:|
+|1   |  Constant |  ```a += b``` | statement  | add two numbers  |
+|$\log N$   | Logarithmic  | ```while(N > 1){N = N / 2;...}```  |  divide in half | BinarySearch  |
+| N  |  Linear | ```for(i = 0; i < N){...;}```  | loop  | find max/min   |
+|$N\log N$   |  Linearithmic |  mergesort | divide and conquer  |  mergesort |
+|$N^2$   | Quadratic  | double loop  |  double loop | check all pairs  |
+|$N^3$   | Cubic  |  triple loop | triple loop  |  check all triples |
+|$2^N$   | exponential  | combinatorial search  | exhaustive search  |  check all subsets |
+
+
+**Theory of Algorithms**
+
+|Upper Bound(Big Oh)|
+|:--:|
+|**Optimal Algo(Tilde Notation, Big theta)**   |
+|**Lower Bound(Big Omega)**   |
+
+**Memory**
