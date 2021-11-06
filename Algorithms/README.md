@@ -144,3 +144,26 @@ suffices to describe ordered-of-growth of typical algorithms.
 |**Lower Bound(Big Omega)**   |
 
 **Memory**
+
+> Typical memory usage for objects in Java
+
+* Object overhead. 16 bytes
+* Reference. 8 bytes
+* Padding. Each object uses a multiple of 8 bytes.
+
+> Typical Memory usage summary
+
+>Total memory usage for a data type value:
+
+* Primitive type: 4 bytes for int, 8 bytes for double,...
+* Object reference: 8 bytes.
+* Array: 24 bytes + memory for each array entry
+* Object: 16 bytes + memory for each instance variable + 8 bytes if inner class(for pointer to enclosing class)
+* Padding: round up to multiple of 8 bytes.
+
+>Shallow memory usage: Don't count referenced objects.
+
+>Deep memory usage: If array entry or instance variable is a reference, add memory(recursively) for referenced object.
+
+
+# Lecture 3: Stacks and Queues
