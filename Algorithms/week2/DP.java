@@ -6,7 +6,7 @@ class Info{
 	public int end;
 	public int time;
 	public int salary;
-	Info pre;
+	public Info pre;
 }
 
 public class DP{
@@ -24,7 +24,7 @@ public class DP{
 			System.out.println("No." + j + "'s Salary: ");
 			w[i].salary = input.nextInt();
 		}
-		
+
 	}
 
 
