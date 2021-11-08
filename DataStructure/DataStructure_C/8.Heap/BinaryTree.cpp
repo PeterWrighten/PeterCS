@@ -128,7 +128,7 @@ void binarytree::inorder(tree *t){
 }
 
 void binarytree::delete_tree(int i, tree *t){
-	tree *tr = binarytree::search_tree(*t, i);
+	tree *tr = binarytree::search_tree(t, i);
 	tem = tr->parent;
 	if(tem == NULL){
 		cout<<"Warning!! It is the root, if you forcely delete it, all of your data would be deleted!"<<endl;
