@@ -148,12 +148,30 @@ void binarytree::delete_tree(int i, tree *t){
 
 
 int main(){
-
+	int j[tree_size];
+    tree *t[tree_size];
 	binarytree btree = new binarytree();
-	int t;
+	int i = 0;
 	int x;
-	tree *tree[tree_size];
-
+	while(1){
+    cout<<“Input Number You Prefer”<<endl;
+	cin>>j[i];
+	if(j[i] == 01){
+		break;
+	}
+	t[i] = new tree;
+	t[i]->x = j[i];
+	if( i != 0 ){
+		if( i % 2 == 1 ){
+			t[i]->parent = t[(i - 1) / 2];
+			t[(i - 1) / 2]->left = t[i];
+		}else{
+			t[i]->parent = t[(i - 2)/2];
+			t[(i - 2)/2]->right = t[i];
+		}
+	}
+	i++;
+	}
 
 	cout<<"Operation Menu: "<<endl;
 	cout<<"-------------------------------"<<endl;
@@ -168,7 +186,7 @@ int main(){
 
 	switch(x){
 		case 1:
-            btree.find_max(tree[0]);
+
 
 		case 2:
 
