@@ -133,14 +133,10 @@ void binarytree::delete_tree(int i, tree *t){
 	if(tem == NULL){
 		cout<<"Warning!! It is the root, if you forcely delete it, all of your data would be deleted!"<<endl;
 
-		}
-
-
-	(tr->left)->parent = tem;
-	(tr->right)->parent = tem;
-	tem->left = tr->left;
-	tem->right = tr->right;
-	delete tr;
+	}
+	tree *min = binarytree::find_min(tr);
+	tr->x = min->x;
+	delete min;
 	binarytree::inorder(tem);
 
 
