@@ -8,7 +8,7 @@ public class fib{
 		int pre2 = 1;
 		int j;
 		if(n % 2 == 0){j = (n - 2) / 2;}else{j = (n - 2) / 2 + 1;}
-		for(int i = 0; i <= j; ++i){
+		for(int i = 0; i < j; ++i){
 			pre1 += pre2;
 			pre2 += pre1;
 		}
