@@ -106,3 +106,24 @@ $ git checkout -<branch> <-- change branch
 ```
 $ ssh-keygen -t rsa -C "youemail@.com"
 ```
+
+>wait to update
+
+## Part2: Linux editor - Vim
+
+Vim has 3 modes under linux:
+
+- Normal mode `esc`
+- Insert mode `i`
+- visualized mode `v`
+- Command mode `:`
+
+Common Command:
+
+- `:w`: Just Save changes, but exit
+- `:w!`: Just Forcely save changes, but exit 
+- `:q!`: Exit, but save changes
+- `:wq`: Exit and save
+- `:x`: Same with `:wq`
+- `:saveas file`: save as file
+- `:e file`: open file
