@@ -4,7 +4,7 @@ With the study of Computer Science, I gradually realise that it is indispensable
 
 Which I consider as the most important Prequisite is C++ & C. Thus I would do it in the independent block: 
 
-##[C++]()
+## [C++](https://github.com/PeterWrighten/Peter_CS/blob/main/Prerequisites/Cpp/README.md)
 
 
 # Note
