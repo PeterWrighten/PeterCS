@@ -167,3 +167,65 @@ suffices to describe ordered-of-growth of typical algorithms.
 
 
 # Lecture 3: Stacks and Queues
+
+
+**Implementation**
+
+- Resizing Array
+- Linked List
+
+**JAVA's Generic**
+
+Sort of similar with C++'s Template.
+
+E: Element in Set
+T: Class
+
+```java
+
+public class Demo{
+	public static <E> void print(E[] array){
+		for( E element : array){
+			System.out.println("%s", element);
+		}
+
+	}
+
+	punlic static void main(String[] args){
+		Integer[] intArray = {1, 2, 3};
+		Double[] doubleArray = {1.1, 2.2, 3.4};
+		//
+	   
+	}
+		
+	
+}
+
+
+```
+
+**Good Code has Zero Cast.**
+
+> Primitives all have Wrapper Type.
+**i.e.:** int has a wrapper type called Integer
+
+>AutoBoxing: Automatic cast between primitives and wrappers
+
+>Syntactic Sugar: Behind-the-scenes casting
+
+**Iterator**
+
+
+
+**Data Structure: Bag**
+
+Main Application: Adding items to a collection and iterating.
+
+```java
+public class Bag<item> implements Iterable<item>{
+	Bag();
+	void add(item x);
+	int size();
+	Iterable<item>  iterator();
+}
+```
