@@ -168,6 +168,8 @@ suffices to describe ordered-of-growth of typical algorithms.
 
 # Lecture 3: Stacks and Queues
 
+**Stack**
+- ```push()```: Tail is NULL
 
 **Implementation**
 
@@ -229,3 +231,10 @@ public class Bag<item> implements Iterable<item>{
 	Iterable<item>  iterator();
 }
 ```
+
+**Dijkstra's Two Stack Algorithms**
+
+1. Left Parenthesis: Ignore
+2. Right Parenthesis: Operate
+3. Value: push into value stack
+4. Operator: push into operator stack
