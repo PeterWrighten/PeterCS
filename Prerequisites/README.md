@@ -2,7 +2,7 @@
 
 With the study of Computer Science, I gradually realise that it is indispensable to take some prerequisites when you wanna begin to learn/research a specific field. Thus I set up this corner to focus on do these dirty jobs.
 
-Which I consider as the most important Prequisite is C++ & C. Thus I would do it in the independent block: 
+Which I consider as the most important Prerequisite is C++ & C. Thus I would do it in the independent block: 
 
 ## [C++](https://github.com/PeterWrighten/Peter_CS/blob/main/Prerequisites/Cpp/README.md)
 
