@@ -41,10 +41,12 @@ void Queue::enqueue(string i){
 
 string Queue::dequeue(){
     string j = first->item;
+    Node *tem = first;
     first = first->next;
     if(IsEmpty()){
         last = NULL;
     }
+    delete tem;
     return j;
 
 }

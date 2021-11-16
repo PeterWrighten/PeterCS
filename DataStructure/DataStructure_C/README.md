@@ -20,3 +20,15 @@ Perhaps the most important class of data structures maintain a set of items, ind
 - Logical Predecessor(S, x), Successor(S, x) - Given an element x whose key is from a totally ordered set S, returns the next smallest (largest) element in S, or NIL if x is the maximum(minimum) element.
 
 1. Binary Tree
+
+
+
+## Part 2: C Syntax
+
+### Macro(#define)
+
+```c
+#define SIZE 100
+double data[SIZE];
+```
+
