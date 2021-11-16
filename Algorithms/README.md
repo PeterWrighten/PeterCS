@@ -168,12 +168,21 @@ suffices to describe ordered-of-growth of typical algorithms.
 
 # Lecture 3: Stacks and Queues
 
-**Stack**
+## Stack
 - ```push()```: Tail is NULL
 
-**Implementation**
+### Implementation
+
+>Resizing Array --> Space Efficiency
+
+>Linked-List --> Time Efficiency
 
 - Resizing Array
+
+>Resize stragedy:
+1. When N == s.length, double;
+2. When N == s.length/4, half;
+3. s.length / 4 < N < s.length; 
 
 * Point: 
 
@@ -193,6 +202,9 @@ public void push(T item){
 public String pop(){
 	String item = s[--N];
 	s[N] = null;
+	if( N > 0 && N < s.length/4){
+		resize(s.length / 2);
+	}
 	return item;
 
 }
@@ -235,7 +247,19 @@ public void pop(){
 
 ```
 
-**JAVA's Generic**
+## Queue
+
+**Idea:**
+
+1. 2 Nodes: first & last
+2. if(IsEmpty()): (At least one node left)
+
+* Enqueue(): first = last;
+* Dequeue(): last = first;
+
+
+
+## JAVA's Generic
 
 Sort of similar with C++'s Template.
 
@@ -274,11 +298,11 @@ public class Demo{
 
 >Syntactic Sugar: Behind-the-scenes casting
 
-**Iterator**
+## Iterator
 
 
 
-**Data Structure: Bag**
+## Data Structure: Bag
 
 Main Application: Adding items to a collection and iterating.
 

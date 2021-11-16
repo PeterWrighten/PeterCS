@@ -27,6 +27,9 @@ public class Stack_resizingArray {
     public String pop(){
         String i = s[--N];//s[--N]<==> N = N - 1; s[N]...
         s[N] = null;
+        if( N > 0 && N == s.length/4){
+            resize(s.length / 2);
+        }
         return i;// prevent loitering
     }
     public static void main(String[] args){
