@@ -174,7 +174,66 @@ suffices to describe ordered-of-growth of typical algorithms.
 **Implementation**
 
 - Resizing Array
+
+* Point: 
+
+1. push()
+```java
+public void push(T item){
+	if(N == s.length){
+		resize(2 * s.length);
+	}
+	s[N++] = item;
+}
+```
+
+2. pop()
+
+```java
+public String pop(){
+	String item = s[--N];
+	s[N] = null;
+	return item;
+
+}
+```
+
+3. resize()
+
+```java
+public void resize(int cap){
+	String[] copy = new String[cap];
+	for(int i = 0; i < s.length; i++){
+		copy[i] = s[i];
+	}
+	s = copy;
+}
+```
+
+
 - Linked List
+
+* Point:
+
+1. push(item): 
+
+```java
+public void push(T item){
+	Node oldtop = top;
+	top.item = item;
+	top.next = oldtop;
+
+}
+
+```
+2. pop()
+
+```java
+public void pop(){
+	top = top.next;
+}
+
+```
 
 **JAVA's Generic**
 
@@ -238,3 +297,24 @@ public class Bag<item> implements Iterable<item>{
 2. Right Parenthesis: Operate
 3. Value: push into value stack
 4. Operator: push into operator stack
+
+
+**Syntax Memo**
+
+```java
+s[N++] = 10;
+
+//equal to
+
+s[N] = 10;
+N += 1;
+
+/****************/
+
+s[++N] = 10;
+
+//equal to
+
+N += 1;
+s[N] = 10;
+```
