@@ -346,3 +346,9 @@ s[++N] = 10;
 N += 1;
 s[N] = 10;
 ```
+
+# Lecture 4: Sort
+
+## Element Sort
+
+
