@@ -298,11 +298,15 @@ public class Demo{
 
 >Syntactic Sugar: Behind-the-scenes casting
 
-## Iterator
+## Java's API
 
-
-
-## Data Structure: Bag
+```java
+import java.util.List;
+import java.util.ArrayList;//resizing array
+import java.util.LinkedList;//linked list
+import java.util.Stack;
+import java.util.Queue;
+```
 
 Main Application: Adding items to a collection and iterating.
 
