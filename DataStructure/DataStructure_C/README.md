@@ -81,3 +81,5 @@ int main(){
 *fgets(buffer, buffersize, \*fstream)*
 
 This syntax is safer than *gets()*.
+
+*fflush(\*fstream)*, *\*fstream* is such as *stdin* or *stdout*.
