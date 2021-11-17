@@ -18,12 +18,12 @@
  --:|--:|--:
 Data Structure & Algorithms (C++) | &spades; &spades; &spades;  | [DSA](https://github.com/PeterWrighten/Peter_CS/blob/main/DataStructure/README.md)
 Algorithms(JAVA) | &spades; &spades; &spades;  | [Algo](https://github.com/PeterWrighten/Peter_CS/tree/main/Algorithms)
-Machine Learning(Octave)  | &spades; &spades;  | [ML](https://github.com/PeterWrighten/MachineLearning)
-Deep Learning(Python)  | &spades; &spades;  | [DL](https://github.com/PeterWrighten/DeepLearning)
-Computer Architecture(VHL) | &spades; &spades; &spades;  | [CA](https://github.com/PeterWrighten/ComputerArchitecture)
-Computer Networking(Python)  | &spades; &spades; &spades;  | [CNET](https://github.com/PeterWrighten/ComputerNetworking)
-Operating System(Unix)  | &spades; &spades; &spades; | [OS](https://github.com/PeterWrighten/OperatingSystem)
-Database(SQL)  | &spades; &spades; &spades;  |  [DB](https://github.com/PeterWrighten/Database)
+Machine Learning(Python3)  | &spades; &spades;  | [ML](https://github.com/PeterWrighten/MachineLearning)
+Deep Learning(Python3)  | &spades; &spades;  | [DL](https://github.com/PeterWrighten/DeepLearning)
+Computer Architecture(Verilog) | &spades; &spades; &spades;  | [CA](https://github.com/PeterWrighten/ComputerArchitecture)
+Computer Networking(Python/C++)  | &spades; &spades; &spades;  | [CNET](https://github.com/PeterWrighten/ComputerNetworking)
+Operating System(C)  | &spades; &spades; &spades; | [OS](https://github.com/PeterWrighten/OperatingSystem)
+Database(SQL/C++)  | &spades; &spades; &spades;  |  [DB](https://github.com/PeterWrighten/Database)
 Compiler(C)  | &spades; &spades; &spades;  | [CP](https://github.com/PeterWrighten/Compiler)
 
 ## Projects
