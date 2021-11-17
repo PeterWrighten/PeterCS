@@ -351,4 +351,40 @@ s[N] = 10;
 
 ## Element Sort
 
+**Two useful abstractions**
 
+- Helper functions: Refer to data through compares and exchanges.
+- Less: Is item v less than w?
+- Exchange: Swap item in array a[] at index i with the one at index j.
+
+**compareTo()**
+
+- Totality
+- Transitivity
+- Antisymmetry
+
+**Selection Sort**
+
+- In iteration i, Find index *min* of smallest remaining entry.
+- swap a[min] and a[i].
+- O(n^2)
+- Defect: It's a waste of time for partially-sorted array.
+
+**Insertion Sort**
+
+- In iteration i, swap a[i] with each larger entry to its left.
+- Partially-sorted array: O(N)--> Needs to be proved
+- Random array: O(N^2)
+
+**Shell Sort**
+
+- h-sort
+
+
+**Shuffling**
+
+- In iteration i, pick integer *r* between 0 and i uniformly at random, swap a[i] and a[r].
+
+**Convex Hull**
+
+- Graham Scan
