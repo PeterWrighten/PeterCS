@@ -14,7 +14,7 @@ private:
     Node *top = nullptr;
     T i;
 public:
-    void push(T i);
+    void push(T);
     void pop();    
 };
 template<class T>

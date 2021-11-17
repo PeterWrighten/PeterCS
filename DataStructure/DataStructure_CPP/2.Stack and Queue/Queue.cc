@@ -16,7 +16,7 @@ public:
         last = NULL;
     }
     bool IsEmpty();
-    void enqueue(string i);
+    void enqueue(string);
     string dequeue();
 
 };
