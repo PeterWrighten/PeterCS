@@ -13,7 +13,7 @@ typedef struct Node{
 Node *first;
 Node *last;
 
-bool isEmpty(){
+bool isEmpty(){ 
     return first == NULL;
 }
 
