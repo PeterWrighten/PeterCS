@@ -20,7 +20,7 @@ Data Structure & Algorithms (C++) | &spades; &spades; &spades;  | [DSA](https://
 Algorithms(JAVA) | &spades; &spades; &spades;  | [Algo](https://github.com/PeterWrighten/Peter_CS/tree/main/Algorithms)
 Machine Learning(Python3)  | &spades; &spades;  | [ML](https://github.com/PeterWrighten/MachineLearning)
 Deep Learning(Python3)  | &spades; &spades;  | [DL](https://github.com/PeterWrighten/DeepLearning)
-Computer Architecture(Verilog) | &spades; &spades; &spades;  | [CA](https://github.com/PeterWrighten/ComputerArchitecture)
+Computer System(Verilog/C) | &spades; &spades; &spades;  | [CSA](https://github.com/PeterWrighten/ComputerSystem)
 Computer Networking(Python/C++)  | &spades; &spades; &spades;  | [CNET](https://github.com/PeterWrighten/ComputerNetworking)
 Operating System(C)  | &spades; &spades; &spades; | [OS](https://github.com/PeterWrighten/OperatingSystem)
 Database(SQL/C++)  | &spades; &spades; &spades;  |  [DB](https://github.com/PeterWrighten/Database)
