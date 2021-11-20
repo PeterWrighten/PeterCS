@@ -6,8 +6,8 @@ public class selectionsort
 
     public selectionsort(int[] b)
     {
-        this.a = b;
-        this.size = b.length;
+        a = b;
+        size = b.length;
     }
 
     public void swap(int i, int j)

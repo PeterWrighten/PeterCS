@@ -388,3 +388,9 @@ s[N] = 10;
 **Convex Hull**
 
 - Graham Scan
+
+### JAVA Syntax
+
+> Implement "swap" func in JAVA
+
+
