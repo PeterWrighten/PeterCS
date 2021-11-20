@@ -373,12 +373,20 @@ s[N] = 10;
 **Insertion Sort**
 
 - In iteration i, swap a[i] with each larger entry to its left.
-- Partially-sorted array: O(N)--> Needs to be proved
+- Partially-sorted array: O(N)--> (Because N(inv) < cN;  N(Exchange) = N(inv), N(inv) < N(Compare) < N(inv) + N - 1)
 - Random array: O(N^2)
 
 **Shell Sort**
 
 - h-sort
+
+>Why insertion sort?
+
+- Big increments => small subarray
+- Small increments => nearly in order
+
+> Which increment sequence to use?
+
 
 
 **Shuffling**
