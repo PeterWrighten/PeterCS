@@ -393,4 +393,6 @@ s[N] = 10;
 
 > Implement "swap" func in JAVA
 
-
+1. Definite out of  Method(in the class)
+2. Definite in obj(```int[], String[]```)
+3. 

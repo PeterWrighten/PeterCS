@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class selectionsort
 {
@@ -53,7 +54,18 @@ public class selectionsort
 
     public static void main(String[] args)
     {
-        int[] a = {0, 9, 44, 6, 9, 6, 1, 3, 222};
+        Scanner input = new Scanner(System.in);
+        int[] a;
+        int i;
+        System.out.println("How many numbers do you wanna input ?\n ");
+        i = input.nextInt();
+        a = new int[i];
+        for(int j = 0; j < i; j++)
+        {
+            System.out.println("The number you wanna sort>> ");
+            a[j] = input.nextInt();
+        }
+        input.close();
         selectionsort s = new selectionsort(a);
         s.sort();
         s.display();
