@@ -376,9 +376,28 @@ s[N] = 10;
 - Partially-sorted array: O(N)--> (Because N(inv) < cN;  N(Exchange) = N(inv), N(inv) < N(Compare) < N(inv) + N - 1)
 - Random array: O(N^2)
 
-**Shell Sort**
+**Shell Sort(Insertion sort)**
 
-- h-sort
+- h-sort: First, define increment; Second, insertionsort every h increments.
+
+```java
+while( h > 0 )//change increment
+{
+	for( int i = h; i < size; i++)
+	{
+		for( int j = i; j >= h; j -= h)
+		{
+			if(a[j] > a[j - h])
+			{
+				swap(j, j - h);
+			}
+		}
+		
+	}
+	h = h / 3;
+}
+
+```
 
 >Why insertion sort?
 

@@ -19,7 +19,7 @@ public class shellsort
 
     public void sort()
     {
-        int h = 0;
+        int h = 1;
         while(h < size / 3)
         {
             h = 3 * h + 1; 
@@ -29,12 +29,15 @@ public class shellsort
         {
             for(int i = h; i < size; i++)
             {
-                if(a[i] < a[i - h])
+                for(int j = i; j >= h; j -= h)
                 {
-                    swap(i, i - h);
+                    if(a[j] < a[j - h])
+                    {
+                        swap(j, j - h);
+                    }
                 }
             }
-            h -= 3;
+            h = h / 3;
         }
     }
 
