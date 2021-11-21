@@ -406,6 +406,10 @@ while( h > 0 )//change increment
 
 > Which increment sequence to use?
 
+**Problem**
+
+1. Why increment h = 3h + 1 ?
+2. Why O(N^3/2) ?
 
 
 **Shuffling**
@@ -416,10 +420,26 @@ while( h > 0 )//change increment
 
 - Graham Scan
 
+## MergeSort
+
+**Divide and Conquer**
+
+1. Recurrence(Extra Space)
+
+- Divide array into two halves.
+- Recursively sort each half.
+- Merge two halves.
+
+2. Bottom-up
+
+- Pass through array, merging subarrays of size 1.
+- Repeat for subarrays of size 2, 4, 8...
+
+
 ### JAVA Syntax
 
 > Implement "swap" func in JAVA
 
 1. Definite out of  Method(in the class)
 2. Definite in obj(```int[], String[]```)
-3. 
+
