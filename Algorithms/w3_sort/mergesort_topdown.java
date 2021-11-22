@@ -14,7 +14,12 @@ public class mergesort_topdown
     {
         for(int i = 0; i < mid + 1; i++)
         {
-            result[i] =  a[i] < a[mid + 1 + i] ? a[i] : a[mid + 1 + i];
+            for(int j = 0; j < mid + 1; j++)
+            {
+                result[i] =  a[i] < a[mid + 1 + j] ? a[i] : a[mid + 1 + j];
+
+            }
+            
         }
         
 
