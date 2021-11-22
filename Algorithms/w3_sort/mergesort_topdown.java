@@ -19,7 +19,7 @@ public class mergesort_topdown
             return;
         
         int len = end - start;
-        int mid = start + len<<1;
+        int mid = start + len>>1;
         
 
 
