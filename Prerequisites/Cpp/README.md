@@ -2,6 +2,11 @@
 
 As for me, I consider C++ is exactly an elegant language, and it is exactly indispensable to understand its Design Pattern and underlying Structure. Thus i would do these so-called dirty jobs in this Repo.
 
+# VSCODE Debugger
+
+[Tutorial](https://zhuanlan.zhihu.com/p/361974163)
+
+
 # Design Pattern
 
 ## Object-Oriented Programming
