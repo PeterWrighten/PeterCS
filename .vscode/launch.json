@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "(lldb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${/Users/apple/GitHub/Peter_CS/DataStructure/DataStructure_CPP/2.Stack and Queue/Stack.cc}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+    {
+        "name": "(lldb) Attach",
+        "type": "cppdbg",
+        "request": "attach",
+        "program": "enter program name, for example ${workspaceFolder}/a.out",
+        "processId": "${command:pickProcess}",
+        "MIMode": "lldb"
+    },
+
+        {
             "name": "clang - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
