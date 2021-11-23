@@ -8,6 +8,7 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug executable 'Rust'",
+            "stopOnEntry": true,
             "cargo": {
                 "args": [
                     "build",
