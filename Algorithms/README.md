@@ -2,6 +2,39 @@
 
 **[Standard Lib](https://introcs.cs.princeton.edu/java/stdlib/)**
 
+# Todo List
+
+## Week 1: QuickUnion
+
+- [x] Quickfind
+- [x] Quickunion
+- [ ] Percolate
+
+## Week 2: Stack & Queue
+
+- [x] Stack
+- [x] Queue
+- [ ] Queue_Resizing array
+- [ ] Randomized Queue
+- [ ] Dequeue
+- [ ] Dijkstra
+
+## Week 3: Sort
+
+- [x] InsertionSort
+- [x] SelectionSort
+- [x] Shellsort
+- [x] Mergesort: TopDown
+- [ ] Mergesort: Bottomup
+- [ ] QuickSort
+- [ ] QuickSelect
+- [ ] 3-Way Quicksort 
+
+## Week 4: Priority Queue
+
+
+
+
 # Lecture 1: Union-Find
 
 >The implementation of algo is [here](https://github.com/PeterWrighten/Peter_CS/tree/main/Algorithms/week1).
@@ -481,4 +514,27 @@ Arrays.sort(a);
 
 1. Definite out of  Method(in the class)
 2. Definite in obj(```int[], String[]```)
+
+# Lecture 5: Priority queue
+
+>Collection: 
+
+Insert and delete items.
+  
+>Delete:
+
+- Stack: Remove the item most recently added
+- Queue: Remove the item least recently added
+- Randomized Queue: Remove a random item
+- Priority queue: Remove the largest(or Samllest) item
+
+>Priority Queue
+
+- Unordered: Insert: O(1), Delmax: O(N), Max: O(N)
+- Ordered: 	Insert: O(N), Delmax: O(1), Max: O(1)
+  
+## Binary Heap
+
+
+
 
