@@ -459,7 +459,20 @@ while( h > 0 )//change increment
 
 - Exchange a[lo] with a[j].
 
+**Dijkstra 3-Way Quicksort**
 
+
+
+### Java's sort
+
+- Tuned QuickSort for Primitives, Tuned MergeSort for objects.
+
+```java
+import java.util.Arrays;
+
+Arrays.sort(a);
+
+```
 
 
 ### JAVA Syntax
