@@ -436,6 +436,32 @@ while( h > 0 )//change increment
 - Repeat for subarrays of size 2, 4, 8...
 
 
+## Quicksort
+
+**Basic Plan**
+
+- Shuffle the array
+- Partition so that, for some j
+  1. Entry a[j] is in place.
+  2. No larger entry to the left of j
+  3. No smaller entry to the right of j
+- Sort each piece recursively
+
+**Partition**
+
+>Repeat until i and j pointers cross
+
+- Scan i from left to right so long as (a[i] < a[lo]).
+- Scan j from right to left so long as (a[j] > a[lo]).
+- Exchange a[i] with a[j].
+
+>When pointers cross
+
+- Exchange a[lo] with a[j].
+
+
+
+
 ### JAVA Syntax
 
 > Implement "swap" func in JAVA

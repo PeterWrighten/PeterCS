@@ -1,3 +1,4 @@
+package Stack;
 import java.util.Scanner;
 
 public class Stack_resizingArray {
