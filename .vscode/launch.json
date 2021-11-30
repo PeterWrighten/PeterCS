@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Quicksort",
+            "request": "launch",
+            "mainClass": "Quicksort",
+            "projectName": "Peter_CS_726abd24"
+        },
+        {
             "name": "clang++ - Build and debug active file",
             "type": "lldb",
             "request": "launch",

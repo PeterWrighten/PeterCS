@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "Algorithms/w2_stack_queue",
+        "Algorithms/w3_sort/QuickSort"
+    ]
+}

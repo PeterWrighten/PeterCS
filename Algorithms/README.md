@@ -26,7 +26,7 @@
 - [x] Shellsort
 - [x] Mergesort: TopDown
 - [ ] Mergesort: Bottomup
-- [ ] QuickSort
+- [x] QuickSort
 - [ ] QuickSelect
 - [ ] 3-Way Quicksort 
 
@@ -534,6 +534,7 @@ Insert and delete items.
 - Ordered: 	Insert: O(N), Delmax: O(1), Max: O(1)
   
 ## Binary Heap
+
 
 
 
