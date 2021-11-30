@@ -7,27 +7,35 @@ using namespace std;
 class Mergesort
 {
 public:
-    void merge(vector<int>& nums, vector<int>& result, int lo, int mid, int hi)
+    void merge(vector<int>& nums, int lo, int mid, int hi)
     {
         int i = lo;
         int j = mid + 1;
-        for(int k = lo; k <= hi; k++)
+        int len = hi - lo + 1;
+        int k = 0;
+        vector<int> result(len);
+        for(k = 0; k < len; k++)
         {
             if(i > mid)  result[k] = nums[j++];
             else if(j > hi)  result[k] = nums[i++];
             else if(nums[i] < nums[j])  result[k] = nums[i++];
             else    result[k] = nums[j++];
         }
+        for(i = lo, k = 0; i <= hi; i++, k++)
+        {
+            nums[i] = result[k];
+        }
+        vector<int>().swap(result);
 
     }
 
-    void sort(vector<int>& nums, vector<int>& result, int lo, int hi)
+    void sort(vector<int>& nums, int lo, int hi)
     {
         if(lo >= hi)    return;
         int mid = lo + (hi - lo) / 2;
-        sort(result, nums, lo, mid);
-        sort(result, nums, mid + 1, hi);
-        merge(nums, result, lo, mid, hi);//enchange sequence!!
+        sort(nums, lo, mid);
+        sort(nums, mid + 1, hi);
+        merge(nums, lo, mid, hi);//enchange sequence!!
     }
 
 };
@@ -46,9 +54,8 @@ int main()
 
     cout<<"-----------------------------------"<<endl;
     Mergesort m;
-    vector<int> result(nums.size());
-    m.sort(nums, result, 0, nums.size() - 1);
-    for(auto itr = result.begin(); itr != result.end(); itr++)
+    m.sort(nums, 0, nums.size() - 1);
+    for(auto itr = nums.begin(); itr != nums.end(); itr++)
     {
         cout<< *itr<<endl;
     }

@@ -4,26 +4,34 @@ public class mergesort_topdown
 {
     
 
-    public void merge(int[] ax, int[] bx, int start, int mid, int end)
+    public void merge(int[] ax, int start, int mid, int end)
     {
         int i = start;
         int j = mid + 1;
-        for(int k = start; k <= end; k++ )
+        int k = 0;
+        int len = end - start + 1;
+        int[] bx = new int[len];
+        for(k = 0; k < len; k++ )
         {
             if(i > mid) bx[k] = ax[j++];//first array overflows;
             else if(j > end)    bx[k] = ax[i++];//second array overflows.
             else if(ax[j] < ax[i])   bx[k] =  ax[j++];
             else    bx[k] = ax[i++];
         }
+        for(i = start, k = 0; i <= end; i++, k++)
+        {
+            ax[i] = bx[k];
+        }
+        
     }
 
-    public void merge_sort(int[] ax, int[] bx, int start, int end)
+    public void merge_sort(int[] ax, int start, int end)
     {
         if(start >= end)    return;
         int mid = start + (end - start) / 2;
-        merge_sort(bx, ax, start, mid);
-        merge_sort(bx, ax, mid + 1, end);
-        merge(ax, bx, start, mid, end);//exchange ax, bx
+        merge_sort(ax, start, mid);
+        merge_sort(ax, mid + 1, end);
+        merge(ax, start, mid, end);
 
     }
 
@@ -46,7 +54,6 @@ public class mergesort_topdown
         System.out.println("How many numbers do you wanna input ?\n ");
         i = input.nextInt();
         a = new int[i];
-        int[] result = new int[i];
         for(int j = 0; j < i; j++)
         {
             System.out.println("The number you wanna sort>> ");
@@ -54,8 +61,8 @@ public class mergesort_topdown
         }
         input.close();
         mergesort_topdown s = new mergesort_topdown();
-        s.merge_sort(a, result, 0, (i - 1));
-        s.display(result);
+        s.merge_sort(a, 0, (i - 1));
+        s.display(a);
 
     }
 

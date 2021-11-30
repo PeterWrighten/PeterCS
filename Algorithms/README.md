@@ -25,12 +25,22 @@
 - [x] SelectionSort
 - [x] Shellsort
 - [x] Mergesort: TopDown
+- [ ] Mergesort: improvement
 - [ ] Mergesort: Bottomup
 - [x] QuickSort
 - [ ] QuickSelect
 - [ ] 3-Way Quicksort 
+- [ ] Priority Queue
 
-## Week 4: Priority Queue
+### Appendix: Non-Comparison Sort
+
+- [ ] Bucket Sort
+- [ ] Counting Sort
+- [ ] Radix Sort
+
+## Week 4: Table
+
+- [ ] Elementary Table
 
 
 
