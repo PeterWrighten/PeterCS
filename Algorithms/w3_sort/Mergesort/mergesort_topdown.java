@@ -23,7 +23,7 @@ public class mergesort_topdown
         int mid = start + (end - start) / 2;
         merge_sort(bx, ax, start, mid);
         merge_sort(bx, ax, mid + 1, end);
-        merge(ax, bx, start, mid, end);
+        merge(ax, bx, start, mid, end);//exchange ax, bx
 
     }
 
