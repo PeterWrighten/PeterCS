@@ -2,17 +2,7 @@ import java.util.Scanner;
 
 public class mergesort_topdown
 {
-    private int[] a;
-    private int[] result;
-    private int size;
-    public mergesort_topdown(int[] b)
-    {
-        a = b;
-        size = b.length;
-        result = new int[size];
-       
-        
-    }
+    
 
     public void merge(int[] ax, int[] bx, int start, int mid, int end)
     {
@@ -56,15 +46,16 @@ public class mergesort_topdown
         System.out.println("How many numbers do you wanna input ?\n ");
         i = input.nextInt();
         a = new int[i];
+        int[] result = new int[i];
         for(int j = 0; j < i; j++)
         {
             System.out.println("The number you wanna sort>> ");
             a[j] = input.nextInt();
         }
         input.close();
-        mergesort_topdown s = new mergesort_topdown(a);
-        s.merge_sort(s.a, s.result, 0, (i - 1));
-        s.display(s.result);
+        mergesort_topdown s = new mergesort_topdown();
+        s.merge_sort(a, result, 0, (i - 1));
+        s.display(result);
 
     }
 
