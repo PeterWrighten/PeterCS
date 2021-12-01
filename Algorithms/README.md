@@ -38,9 +38,14 @@
 - [ ] Counting Sort
 - [ ] Radix Sort
 
-## Week 4: Table
+## Week 4: Table & Tree
 
 - [ ] Elementary Table
+- [ ] Binary Search Tree
+- [ ] Red-Black Tree
+- [ ] AVL Tree
+- [ ] Kd Tree
+- [ ] 2-3 Tree
 
 
 
