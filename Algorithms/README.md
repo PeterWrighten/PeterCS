@@ -579,6 +579,24 @@ Insert and delete items.
 
 ## Elementary Table
 
-**API**
+**Simple Table API**
+
+> Only 1 to 1
 
 - Associative array Abstractions
+
+**Convention**
+
+- Values are not null.
+- Method ```get()``` returns ```null``` if key not present.
+- Method ```put()``` overwrites old value with new value.
+
+**Intended Consequences**
+
+- Easy to implement ```contains()```
+- Can implement lazy version of ```delete()```.
+
+- Equal (x.equal(y)(PS: Non-Null)) for objects
+
+> Sequential search in a linked list
+
