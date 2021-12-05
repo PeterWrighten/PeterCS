@@ -27,10 +27,12 @@
 - [x] Mergesort: TopDown
 - [ ] Mergesort: improvement
 - [x] Mergesort: Bottomup
+- [ ] Collinear Points
 - [x] QuickSort
 - [ ] QuickSelect
 - [ ] 3-Way Quicksort 
 - [x] Priority Queue
+- [ ] 8 Puzzle
 - [x] Binaryheap
 - [x] Heapsort
 - [ ] [Option] Event-driven simulation
@@ -554,7 +556,29 @@ Insert and delete items.
   
 ## Binary Heap
 
+- Binary Tree & Parents >(<) Children
 
+**Basic Plan**
 
+- Swim(int children)
+- Sink(int Parent)
 
+## Non Comparison Sort
 
+- Radix Sort
+- Counting Sort
+- Bucket Sort
+
+### Radix Sort
+
+### Counting Sort
+
+### Bucket Sort
+
+# Lecture 6: Tree & Table
+
+## Elementary Table
+
+**API**
+
+- Associative array Abstractions

@@ -1,4 +1,4 @@
-package Homework;
+package Queue;
 
 public class Queue_resizeArray {
     
