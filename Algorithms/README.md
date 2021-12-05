@@ -33,6 +33,8 @@
 - [x] Priority Queue
 - [x] Binaryheap
 - [x] Heapsort
+- [ ] [Option] Event-driven simulation
+- [ ] Binomial Heap
 
 ### Appendix: Non-Comparison Sort
 
