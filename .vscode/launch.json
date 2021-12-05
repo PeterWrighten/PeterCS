@@ -6,6 +6,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+
+        
+        {
+
+
+            "type": "java",
             "name": "Launch Quicksort",
             "request": "launch",
             "mainClass": "Quicksort",
