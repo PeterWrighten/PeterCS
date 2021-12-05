@@ -26,7 +26,7 @@
 - [x] Shellsort
 - [x] Mergesort: TopDown
 - [ ] Mergesort: improvement
-- [ ] Mergesort: Bottomup
+- [x] Mergesort: Bottomup
 - [x] QuickSort
 - [ ] QuickSelect
 - [ ] 3-Way Quicksort 
