@@ -30,7 +30,9 @@
 - [x] QuickSort
 - [ ] QuickSelect
 - [ ] 3-Way Quicksort 
-- [ ] Priority Queue
+- [x] Priority Queue
+- [x] Binaryheap
+- [x] Heapsort
 
 ### Appendix: Non-Comparison Sort
 
