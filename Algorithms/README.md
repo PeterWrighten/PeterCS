@@ -600,3 +600,6 @@ Insert and delete items.
 
 > Sequential search in a linked list
 
+**Symbol Table**
+
+In computer science, a symbol table is a data structure used by a language translator such as a compiler or interpreter, where each identifier(or symbol) in a program's source code is associated with information relating to its declaration or appearance in the source. In other words, the entries of a symbol table store the information related to the entry's corresponding symbol.
