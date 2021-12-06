@@ -2,6 +2,17 @@
 
 **[Standard Lib](https://introcs.cs.princeton.edu/java/stdlib/)**
 
+# Overview
+
+| Topic | Data Structure & Algorithms |
+|:--:|:--:|
+|Data types|**Resizing Array, Linked List;** Stack, Queue, Bag, Union-find, Priority Queue|
+|Sort| **Array, BinaryHeap;** Quicksort, Mergesort, Heapsort|
+|Search|**BST, Red-Black BST, HashTable**|
+|Graphs|BFS, DFS, Prim, Kruskal, Dijkstra|
+|Strings|Radix Sorts, Tries, KMP, Regexps, Data Compression|
+|Advanced| B-Trees, Suffix Array, Maxflow|
+
 # Todo List
 
 ## Week 1: QuickUnion
@@ -14,6 +25,7 @@
 
 - [x] Stack
 - [x] Queue
+- [ ] Bag
 - [ ] Queue_Resizing array
 - [ ] Randomized Queue
 - [ ] Dequeue
@@ -44,21 +56,24 @@
 - [ ] Counting Sort
 - [ ] Radix Sort
 
-## Week 4: Table & Tree
+## Week 4: Search: Table & Tree
 
-- [ ] Elementary Table
+- [ ] Sequential Search: Unordered 
+- [ ] Binary Search: Ordered
 - [ ] Binary Search Tree
-- [ ] Red-Black Tree
+- [ ] [Option] 2-3 Tree
+- [ ] Red-Black BSTs: A Derivative of 2-3 Tree
+- [ ] B-Trees
 - [ ] AVL Tree
 - [ ] Kd Tree
-- [ ] 2-3 Tree
+
 
 
 
 
 # Lecture 1: Union-Find
 
->The implementation of algo is [here](https://github.com/PeterWrighten/Peter_CS/tree/main/Algorithms/week1).
+>The implementation of algo is [here](https://github.com/PeterWrighten/Peter_CS/tree/main/Algorithms/).
 
 Union Find could be modelized as a dynamic connectivity problem.
 
