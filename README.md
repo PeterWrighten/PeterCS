@@ -16,7 +16,7 @@
 
  Course| Ratings | Info
  :--:|--:|--:
-| **Core** |
+| **Core** |**Core**|**Core**|
 Mathematics| &spades; &spades; &spades;| -
 Data Structure & Algorithms (C++) | &spades; &spades; &spades;  | [DSA](https://github.com/PeterWrighten/Peter_CS/blob/main/DataStructure/README.md)
 Algorithms(JAVA) | &spades; &spades; &spades;  | [Algo](https://github.com/PeterWrighten/Peter_CS/tree/main/Algorithms)
@@ -24,7 +24,7 @@ Computer System(Verilog/C) | &spades; &spades; &spades;  | [CSA](https://github.
 Computer Networking(Python/C++)  | &spades; &spades; &spades;  | [CNET](https://github.com/PeterWrighten/ComputerNetworking)
 Operating System(C)  | &spades; &spades; &spades; | [OS](https://github.com/PeterWrighten/OperatingSystem)
 Compiler(C)  | &spades; &spades; &spades;  | [CP](https://github.com/PeterWrighten/Compiler)
-|**Application**|
+|**App**|**App**|**App**|
 Machine Learning(Python3)  | &spades; &spades;  | [ML](https://github.com/PeterWrighten/MachineLearning)
 Deep Learning(Python3)  | &spades; &spades;  | [DL](https://github.com/PeterWrighten/DeepLearning)
 Database(SQL/C++)  | &spades; &spades; &spades;  |  [DB](https://github.com/PeterWrighten/Database)
