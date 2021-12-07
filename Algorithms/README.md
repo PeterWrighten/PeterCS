@@ -618,3 +618,17 @@ Insert and delete items.
 **Symbol Table**
 
 In computer science, a symbol table is a data structure used by a language translator such as a compiler or interpreter, where each identifier(or symbol) in a program's source code is associated with information relating to its declaration or appearance in the source. In other words, the entries of a symbol table store the information related to the entry's corresponding symbol.
+
+## 2-3 Tree and Red-Black Tree (The Derivative of 2-3 Tree)
+
+In there, I just wanna talk about Red Black Tree.
+
+**Basic Idea**
+
+- Rotate left: Right child Red.
+- Rotate Right: Left child & left-left grandchild Red.
+- Flip Red: Both sides of children Red.
+
+**Problem**
+
+  Red Black Tree and 2-3 Tree only support **insert and search** functions which could guarantee the balance. The deletion machanism is implemented by **Hibbard deletion**, which tends to make balance crash.
