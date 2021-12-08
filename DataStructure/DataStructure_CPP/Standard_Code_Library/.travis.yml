@@ -1,7 +1,0 @@
-language: cpp
-compiler:
-  - gcc
-script:
-  - g++ test.cpp -o tee
-  - ./tee
-  - cat files.log
