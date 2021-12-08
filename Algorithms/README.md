@@ -630,6 +630,11 @@ Key-value pair abstraction.
 
 In computer science, a symbol table is a data structure used by a language translator such as a compiler or interpreter, where each identifier(or symbol) in a program's source code is associated with information relating to its declaration or appearance in the source. In other words, the entries of a symbol table store the information related to the entry's corresponding symbol.
 
+## Binary Search Trees
+
+
+
+
 ## 2-3 Tree and Red-Black Tree (The Derivative of 2-3 Tree)
 
 In there, I just wanna talk about Red Black Tree.
@@ -685,4 +690,12 @@ Range Count & Search: O(logN) <-- Binary Search for ```lo``` & ```hi```.
 
 ### Rectangle Intersection Search: Microprocessor Design
 
-1. 
+
+
+
+## Hash Table
+
+> Hash Table & BSTs API in JAVA
+
+1. Hash Table: ```java.util.HashMap```, ```java.util.IdentityHashMap```
+2. Red-Black Tree: ```java.util.TreeMap```, ```java.util.TreeSet```
