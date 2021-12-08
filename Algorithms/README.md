@@ -71,7 +71,8 @@
 - [ ] **Kd Tree: Computer Graphics**
 - [ ] Interval Search Trees
 - [ ] Segment Trees
-- [ ] Hash Table
+- [ ] Hash Table:Seperate Chainning
+- [ ] Hash Table: Linear Probing
 
 
 # Lecture 1: Union-Find
