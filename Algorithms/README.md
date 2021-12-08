@@ -1,4 +1,4 @@
-# Algorithms Powered By Princeton
+# Algorithms
 
 **[Standard Lib](https://introcs.cs.princeton.edu/java/stdlib/)**
 
@@ -19,7 +19,7 @@
 
 - [x] Quickfind
 - [x] Quickunion
-- [ ] Percolate
+- [ ] **Percolate**
 
 ## Week 2: Stack & Queue
 
@@ -27,8 +27,8 @@
 - [x] Queue
 - [ ] Bag
 - [ ] Queue_Resizing array
-- [ ] Randomized Queue
-- [ ] Dequeue
+- [ ] **Randomized Queue**
+- [ ] **Dequeue**
 - [ ] Dijkstra
 
 ## Week 3: Sort
@@ -39,12 +39,12 @@
 - [x] Mergesort: TopDown
 - [ ] Mergesort: improvement
 - [x] Mergesort: Bottomup
-- [ ] Collinear Points
+- [ ] **Collinear Points**
 - [x] QuickSort
 - [ ] QuickSelect
 - [ ] 3-Way Quicksort 
 - [x] Priority Queue
-- [ ] 8 Puzzle
+- [ ] **8 Puzzle**
 - [x] Binaryheap
 - [x] Heapsort
 - [ ] [Option] Event-driven simulation
@@ -55,20 +55,23 @@
 - [ ] Bucket Sort
 - [ ] Counting Sort
 - [ ] Radix Sort
+- [ ] Intro Sort
 
 ## Week 4: Search: Table & Tree
 
 - [ ] Sequential Search: Unordered 
 - [ ] Binary Search: Ordered
-- [ ] Binary Search Tree
+- [x] Binary Search Tree
 - [ ] [Option] 2-3 Tree
 - [ ] Red-Black BSTs: A Derivative of 2-3 Tree
-- [ ] B-Trees
+- [ ] [Option] B-Trees: Another Derivative of 2-3 Tree
 - [ ] AVL Tree
-- [ ] Kd Tree
-
-
-
+- [ ] 1d Range Search
+- [ ] Line Segment intersection
+- [ ] **Kd Tree: Computer Graphics**
+- [ ] Interval Search Trees
+- [ ] Segment Trees
+- [ ] Hash Table
 
 
 # Lecture 1: Union-Find
@@ -632,3 +635,20 @@ In there, I just wanna talk about Red Black Tree.
 **Problem**
 
   Red Black Tree and 2-3 Tree only support **insert and search** functions which could guarantee the balance. The deletion machanism is implemented by **Hibbard deletion**, which tends to make balance crash.
+
+  ## Geometric Application of BST
+
+  1. Line Segment Intersection
+
+> Sweep-Line Analysis 
+
+**Sweep vertical line from left to right.**
+- x-Coordinates define events.
+- h-segment(left endpoint): insert y-coordinate into BST.
+- h-segment(right endpoint): remove y-coordinate from BST.
+- v-segment: range search for interval of y-endpoints.
+
+2. Kd Tree
+
+> Space partitioning trees
+
