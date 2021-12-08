@@ -668,7 +668,7 @@ Range Count & Search: O(logN) <-- Binary Search for ```lo``` & ```hi```.
 - v-segment: range search for interval of y-endpoints.
 
 
-### Kd Tree
+### Kd Tree: Video Game
 
 > Space partitioning trees
 
@@ -681,6 +681,6 @@ Range Count & Search: O(logN) <-- Binary Search for ```lo``` & ```hi```.
 - Left Endpoint is Key.
 
 
-### Rectangle Intersection Search
+### Rectangle Intersection Search: Microprocessor Design
 
 1. 
