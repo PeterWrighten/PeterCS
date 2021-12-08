@@ -25,6 +25,7 @@
 
 - [x] Stack
 - [x] Queue
+- [ ] Ring Buffer
 - [ ] Bag
 - [ ] Queue_Resizing array
 - [ ] **Randomized Queue**
