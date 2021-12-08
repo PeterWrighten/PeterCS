@@ -593,15 +593,14 @@ Insert and delete items.
 
 ### Bucket Sort
 
-# Lecture 6: Tree & Table
+# Lecture 6: Search & Symbol Table
 
-## Elementary Table
+**Symbol Table**
 
-**Simple Table API**
+Key-value pair abstraction.
 
-> Only 1 to 1
-
-- Associative array Abstractions
+- Insert a value with specified key.
+- Given a key, search for the corresponding value.
 
 **Convention**
 
@@ -616,9 +615,16 @@ Insert and delete items.
 
 - Equal (x.equal(y)(PS: Non-Null)) for objects
 
+## Elementary Table
+
+> Only 1 to 1
+
+- Associative array Abstractions
+
+
 > Sequential search in a linked list
 
-**Symbol Table**
+**Symbol Table** <-- Also Known as key-value pair abstraction.
 
 In computer science, a symbol table is a data structure used by a language translator such as a compiler or interpreter, where each identifier(or symbol) in a program's source code is associated with information relating to its declaration or appearance in the source. In other words, the entries of a symbol table store the information related to the entry's corresponding symbol.
 
@@ -636,19 +642,45 @@ In there, I just wanna talk about Red Black Tree.
 
   Red Black Tree and 2-3 Tree only support **insert and search** functions which could guarantee the balance. The deletion machanism is implemented by **Hibbard deletion**, which tends to make balance crash.
 
-  ## Geometric Application of BST
+## Geometric Application of BST
 
-  1. Line Segment Intersection
+**1d Range Search**
+
+>Unordered Array: 
+
+Range Count & Search: O(N) <-- Sequential Search
+
+> Ordered Array:
+
+Range Count & Search: O(logN) <-- Binary Search for ```lo``` & ```hi```.
+
+
+
+### Line Segment Intersection
 
 > Sweep-Line Analysis 
 
 **Sweep vertical line from left to right.**
+
 - x-Coordinates define events.
 - h-segment(left endpoint): insert y-coordinate into BST.
 - h-segment(right endpoint): remove y-coordinate from BST.
 - v-segment: range search for interval of y-endpoints.
 
-2. Kd Tree
+
+### Kd Tree
 
 > Space partitioning trees
 
+- Partitioning Nodes by direction of Segments(Vertical or Horizonal).
+
+### Interval Search Trees
+
+**Basic Idea**
+
+- Left Endpoint is Key.
+
+
+### Rectangle Intersection Search
+
+1. 
