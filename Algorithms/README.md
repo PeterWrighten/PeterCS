@@ -26,7 +26,7 @@
 - [x] Stack
 - [x] Queue
 - [ ] Ring Buffer
-- [ ] Bag
+- [x] Bag
 - [ ] Queue_Resizing array
 - [ ] **Randomized Queue**
 - [ ] **Dequeue**
@@ -85,6 +85,7 @@
 
 ## Week 5: Graph & Search
 
+- [x] Graph API
 - [ ] Breadth-First Search
 
 
@@ -781,3 +782,24 @@ public class Graph {
 
 }
 ```
+
+> **JAVA Syntax Memo**
+> -> About Iterable<T> & Iterator<T>
+
+```java
+public interface Iterable<T> {
+	Iterator<T> iterator();
+}
+
+public interface Iterator<T> {
+	boolean hasNext();
+	T next();
+	void remove(); // Generally ignored
+}
+```
+
+Interface like this is convenient to definite ReversedIterator & Iterator in sequential data structures.
+
+**Summary**
+
+In Java Containers, all Subclass of Collection would use ```Iteratable``` interface to implement ```for each``` functions.
