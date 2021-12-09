@@ -74,10 +74,18 @@
 - [ ] Segment Trees
 - [ ] Hash Table:Seperate Chainning
 - [ ] Hash Table: Linear Probing
+- [ ] Hash Table: Rehashing
 
 ### Application
 
 - [ ] Exception Filter: WhiteList & BlackList
+- [ ] Dictionary LookUp
+- [ ] File Indexing
+- [ ] Sparse Vectors
+
+## Week 5: Graph & Search
+
+- [ ] Breadth-First Search
 
 
 # Lecture 1: Union-Find
@@ -699,7 +707,77 @@ Range Count & Search: O(logN) <-- Binary Search for ```lo``` & ```hi```.
 
 ## Hash Table
 
+Hash Table is other type of Symbol Table implementation which is distinct with BSTs.
+
+### Uniform Hash Assumptions
+
+Each key is equally likely to hash to an integer between 0 and M-1.
+
+### Hash Functions 
+
+**JAVA Implementation: ```hash()``` & ```hashCode()```**
+
+1. "31x + y" Rule
+
+### Hash Collision
+
+#### Seperate Chainning
+
+#### Linear Probing
+
+##### Rehashing
+
+
+
 > Hash Table & BSTs API in JAVA
 
 1. Hash Table: ```java.util.HashMap```, ```java.util.IdentityHashMap```
 2. Red-Black Tree: ```java.util.TreeMap```, ```java.util.TreeSet```
+
+
+# Lecture 7: Graph & Search
+
+**Some Graph-Processing Problems**
+
+- Path. Is there a path between ```s``` and ```t``` ?
+- Shortest path. What is the shortest path between ```s``` and ```t``` ?
+- Cycle. Is there a cycle in the graph ?
+- Euler tour. Is there a cycle that uses each edge exactly once ?
+- Hamilton tour. Is there a cycle that uses each vertex exactly once?
+- Connectivity. Is there a way to connect all of the vertices ?
+- MST. What is the best way to connect all of the vertices ?
+- Biconnectivity. Is there a vertex whose removal disconnects the graph ?
+- Planarity. Can you draw the graph in the plane with no crossing edges ?
+- Graph isomorphism. Do two adjacency lists represent the same graph ?
+
+## Graph API
+
+```java
+public class Graph {
+	Graph(int V); // Create an empty graph with V vertices. 
+
+	Graph(In in); // Create a graph from input stream 
+
+	void addEdge(int v, int w); // add an edge v-w
+	
+	Iterable<Integer> adj(int v); // vertices adjacent to v 
+
+	int V(); // number of vertices.
+
+	int E(); // number of edges.
+
+	String toString(); // String representation.	
+
+	public static void main(String[] args) {
+		In in = new In(args[0]);
+		Graph G = new Graph(in);
+
+		for(int v = 0; v < G.V(); v++) {
+			for(int w: G.adj(v)) {
+				StdOut.println(v + "-" + w):
+			}
+		}
+	}
+
+}
+```
