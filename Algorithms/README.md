@@ -75,6 +75,10 @@
 - [ ] Hash Table:Seperate Chainning
 - [ ] Hash Table: Linear Probing
 
+### Application
+
+- [ ] Exception Filter: WhiteList & BlackList
+
 
 # Lecture 1: Union-Find
 
