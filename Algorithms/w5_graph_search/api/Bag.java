@@ -1,5 +1,5 @@
 
-package Bag;
+package api;
 
 import java.lang.Iterable;
 
@@ -7,7 +7,7 @@ public class Bag<T> implements Iterable<T> {
     private T[] arr;
     private int N = 0;
     public Bag() { 
-        arr = new T[1];
+        arr =  new T[1];
     }
 
     public void add(T v) {
