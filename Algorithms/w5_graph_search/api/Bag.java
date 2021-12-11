@@ -3,6 +3,8 @@ package api;
 
 import java.lang.Iterable;
 
+import java.util.Iterator;
+
 public class Bag<T> implements Iterable<T> {
     private T[] arr;
     private int N = 0;

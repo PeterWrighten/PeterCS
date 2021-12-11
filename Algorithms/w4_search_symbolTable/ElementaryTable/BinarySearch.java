@@ -43,14 +43,13 @@ public class BinarySearch{
 
     private Node findMin(Node x) {
         if(x.left == null) return x;
-        x = find(x.left);
+        return findMin(x.left);
     }
 
 
 
     public void remove(String key) {
-        Node tmp = search(key);
-        Node min = findMin(tmp.right);
+        Node x = search(key);
         
         
 
