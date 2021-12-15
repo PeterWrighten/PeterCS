@@ -86,6 +86,7 @@
 ## Week 5: Graph & Search
 
 - [x] Graph API
+- [ ] Depth-First Search
 - [ ] Breadth-First Search
 
 
@@ -648,7 +649,7 @@ In computer science, a symbol table is a data structure used by a language trans
 
 
 
-## 2-3 Tree and Red-Black Tree (The Derivative of 2-3 Tree)
+## 2-3 Tree and Red-Black Tree (The Derivative of 2-3 Tree)[Weak Balance]
 
 In there, I just wanna talk about Red Black Tree.
 
@@ -661,6 +662,49 @@ In there, I just wanna talk about Red Black Tree.
 **Problem**
 
   Red Black Tree and 2-3 Tree only support **insert and search** functions which could guarantee the balance. The deletion machanism is implemented by **Hibbard deletion**, which tends to make balance crash.
+
+## AVL Tree [Rough Balance]
+
+- Evaluate Tree's Balance.
+
+> Recursive Definition
+
+N.Height equals: 
+
+1. if N is a leaf: 
+
+```1 + max(N.left.Height, N.right.Height)```
+
+```cpp
+
+class Node{
+	int data;
+	Node* parent;
+	Node* left;
+	Node* right;
+	int Height;
+}
+
+```
+
+**AVL Property**
+
+AVL trees maintain the following property:
+
+For all nodes N, 
+
+```|N.left.Height - N.right.Height| <= 1```
+
+**Implementation**
+
+```cpp
+AVLInsert(k, R) {
+	insert(k, R);
+		
+	rebalance(R);
+
+}
+```
 
 ## Geometric Application of BST
 
@@ -781,6 +825,62 @@ public class Graph {
 	}
 
 }
+```
+
+## Graph-Processing Algorithms 
+
+- **Design Pattern For Graph Processing**
+
+Decouple graph data type from graph processing. 
+
+- Create a Graph object.
+- Pass the Graph to a graph-processing routine.
+- Query the graph-processing routine for information.
+
+> API: Paths
+
+```java
+public class Paths {
+	Paths(Graph G, int s);
+	boolean hasPathTo(int v);
+	Iterable<Integer> pathTo(int v);
+}
+
+```
+
+
+### Depth-First Search(Put unvisited vertices on a stack)
+
+- Goal: Systematically search through a graph.
+- Idea: Mimic Maze Exploration.
+
+```
+DFS(to visit a vertex v)
+----------------------------
+Marked v as visited.
+
+Recursively visit all unmarked vertices w adjacent to v.
+```
+
+- Typical application: 
+
+Find all vertices connected to a given source vertex;
+
+Find a path between two vertices.
+
+### Breadth-First Search(Put unvisited vertices on a queue)
+
+- Shortest path(Bellman-Ford): Find path from s to t that uses fewest number of edges.
+
+
+```
+BFS(From source vertex s)
+------------------------------
+Put s onto a FIFO queue, and mark s as visited;
+
+Repeat until the queue is empty:
+ - remove the least recently added vertex v;
+ - add each of v's unvisited neighbors to the queue, and mark them as visited.
 ```
 
 > **JAVA Syntax Memo**
