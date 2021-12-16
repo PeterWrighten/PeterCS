@@ -903,4 +903,44 @@ Interface like this is convenient to definite ReversedIterator & Iterator in seq
 
 **Summary**
 
-In Java Containers, all Subclass of Collection would use ```Iteratable``` interface to implement ```for each``` functions.
+- In Java Containers, all Subclass of Collection would use ```Iteratable``` interface to implement ```for each``` functions.
+
+![picture 1](../images/123f02da696f17a016a6e4d6df8f7c96edf488d3b87dbff3f5a1737ca102daa6.png)  
+
+
+```java
+
+public class demo<T> implements Iterable<T> {
+	//...
+	@Override
+	public Iterator<T> itreator() {
+		return new demoIterator();
+	}
+
+	private class demoIterator implements Iterator<T> {
+	
+		private int current = 0; 
+
+		@Override
+		public boolean hasNext() {
+			return current != 0;
+		}
+
+		@Override 
+		public T next() {
+			return demo[current++];
+		}
+
+
+	}
+
+}
+```
+
+- Generic Array: When you wanna initialize a generic array, you should use mandatory casting like that:
+
+```java
+Bag<Integer>[] adj = (Bag<Integer>[]) new Object[V];
+//Unchecked type casting; Not safe 
+```
+
