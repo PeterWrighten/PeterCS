@@ -26,7 +26,8 @@
 - [x] Stack
 - [x] Queue
 - [ ] Ring Buffer
-- [x] Bag
+- [x] Bag:LinkedList
+- [x] Bag: ResizingArray
 - [ ] Queue_Resizing array
 - [ ] **Randomized Queue**
 - [ ] **Dequeue**
