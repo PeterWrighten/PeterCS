@@ -1,14 +1,16 @@
-package api;
-import api.Bag;
-import api.In;
+package api.Graph;
+// import api.Bag;
+// import api.In;
 import java.util.NoSuchElementException;
 
-public class Graph {
+import api.Bag.Bag;
+
+public class Graph{
     private static final String NEWLINE = System.getProperty("line.separator");
     private final int V;
     private int E;
     private Bag<Integer>[] adj;
-
+    @SuppressWarnings("unchecked")
     public Graph(int V) { //initializes an empty graph with vertices and 0 edges.
         if(V < 0)   throw new IllegalArgumentException("Number of vertices must be non-negative");
         this.V = V;

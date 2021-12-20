@@ -1,27 +1,22 @@
-package api;
+package api.Bag;
 
 import java.util.NoSuchElementException;
 import java.util.Iterator;
 
 public class Bag<T> implements Iterable<T> {
-    private static final int DEFAULT_CAPACITY = 10;
     private int size; 
     private T[] theItems;
-
+    @SuppressWarnings("unchecked")
     public Bag() {
-        clear();
+        theItems = (T[]) new Object[1];
     }
 
-    private void clear() {
-        size = 0;
-        ensureCapacity(DEFAULT_CAPACITY);
-    }
-
+    @SuppressWarnings("unchecked")
     private void ensureCapacity(int newCapacity) {
         if(newCapacity < size) {
             return;
         } else {
-            T[] oldIs = theItems;
+            T[] oldIs = theItems;       
             theItems = (T[]) new Object[newCapacity];
             for(int i = 0; i < size; i++) {
                 theItems[i] = oldIs[i];
@@ -53,7 +48,7 @@ public class Bag<T> implements Iterable<T> {
 
         @Override
         public boolean hasNext() {
-            return current != 0;
+            return current < size;
         }
 
         @Override
