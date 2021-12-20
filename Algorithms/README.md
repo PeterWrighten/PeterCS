@@ -89,6 +89,7 @@
 - [x] Graph API
 - [ ] Depth-First Search
 - [ ] Breadth-First Search
+- [ ] ConnectedComponents
 
 
 # Lecture 1: Union-Find
