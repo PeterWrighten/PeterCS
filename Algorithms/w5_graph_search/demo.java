@@ -6,16 +6,16 @@ import Bag.Bag;
 
 public class demo {
     public static void main(String[] args) {
-        Stack<Integer> s = new Stack<Integer>();
-        Bag<Integer> b = new Bag<Integer>();
-        b.add(3);
-        b.add(7);
-        b.add(2);
-        b.add(3);
-        b.add(4);
+        Stack<Integer> b = new Stack<Integer>();
+        // Bag<Integer> b = new Bag<Integer>();
+        // b.push(3);
+        b.push(7);
+        b.push(2);
+        b.push(3);
+        b.push(4);
         Iterator<Integer> it = b.iterator();
-        while(it.hasNext()) {
-            System.out.println(it.next());
+        while(!b.empty()) {
+            System.out.println(b.pop());
         }
         // while(b.iterator().hasNext()) {
         //     System.out.println(b.iterator().next());
