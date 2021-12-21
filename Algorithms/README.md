@@ -68,14 +68,18 @@
 - [ ] Red-Black BSTs: A Derivative of 2-3 Tree
 - [ ] [Option] B-Trees: Another Derivative of 2-3 Tree
 - [ ] AVL Tree
+- [ ] Hash Table:Seperate Chainning
+- [ ] Hash Table: Linear Probing
+- [ ] Hash Table: Rehashing
+
+### Geometric Application  
+
 - [ ] 1d Range Search
 - [ ] Line Segment intersection
 - [ ] **Kd Tree: Computer Graphics**
 - [ ] Interval Search Trees
 - [ ] Segment Trees
-- [ ] Hash Table:Seperate Chainning
-- [ ] Hash Table: Linear Probing
-- [ ] Hash Table: Rehashing
+
 
 ### Application
 
@@ -886,7 +890,7 @@ Repeat until the queue is empty:
  - add each of v's unvisited neighbors to the queue, and mark them as visited.
 ```
 
-> **JAVA Syntax Memo**
+## **JAVA Syntax Memo**
 > -> About Iterable<T> & Iterator<T>
 
 ```java
@@ -942,7 +946,16 @@ public class demo<T> implements Iterable<T> {
 - Generic Array: When you wanna initialize a generic array, you should use mandatory casting like that:
 
 ```java
+@SuppressWarnings("unchecked")
 Bag<Integer>[] adj = (Bag<Integer>[]) new Object[V];
 //Unchecked type casting; Not safe 
 ```
+> Queue<T> is just a implements;
 
+To utilize ```Queue<T>```, We should initialize it like following:
+
+```java
+Queue<T> q = new LinkedList<T>();
+q.add(T);
+q.remove();
+```
