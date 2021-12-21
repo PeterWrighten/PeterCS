@@ -14,12 +14,12 @@ import java.util.Iterator;
 import java.util.Stack;
 import java.util.Scanner;
 
-public class Depth_first_search {
+public class DepthFirstSearch {
     private boolean[] marked;
     private int[] edgeTo;
     private int S;
 
-    public Depth_first_search(Graph G, int s) {
+    public DepthFirstSearch(Graph G, int s) {
         int V = G.V();
         marked = new boolean[V];
         edgeTo = new int[V];
@@ -81,7 +81,7 @@ public class Depth_first_search {
             }else if(val == 2) {
                 System.out.println("Input source; ");
                 int s = input.nextInt();
-                Depth_first_search d = new Depth_first_search(graph, s);
+                DepthFirstSearch d = new DepthFirstSearch(graph, s);
                 System.out.println("Input Destination: ");
                 int des = input.nextInt();
                 Iterator<Integer> it = d.pathTo(des).iterator();
@@ -89,9 +89,12 @@ public class Depth_first_search {
                 while(it.hasNext()) {
                     System.out.println(it.next());
                 }
-            }
+            } else { 
+               input.close();
+               throw new IllegalStateException("Invalid input!");
+             }
+             input.close();
         
-        input.close();
     }
     
 }
