@@ -1,4 +1,19 @@
 
+/*****************************************
+ * 
+ *    Graph(int V):
+ *      Graph(int V);
+ *      int V();
+ *      int E();
+ *      void addEdge(int, int);
+ *      Iterable<Integer> adj[v];
+ *      int degree(int);
+ *      String toString();     
+ * 
+ *****************************************/
+
+
+
 // import api.In;
 import java.util.NoSuchElementException;
 

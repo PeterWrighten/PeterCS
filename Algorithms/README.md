@@ -62,7 +62,7 @@
 ## Week 4: Search: Table & Tree
 
 - [ ] Sequential Search: Unordered 
-- [ ] Binary Search: Ordered
+- [x] Binary Search: Ordered
 - [x] Binary Search Tree
 - [ ] [Option] 2-3 Tree
 - [ ] Red-Black BSTs: A Derivative of 2-3 Tree
@@ -87,9 +87,10 @@
 ## Week 5: Graph & Search
 
 - [x] Graph API
-- [ ] Depth-First Search
+- [x] Depth-First Search
 - [ ] Breadth-First Search
 - [ ] ConnectedComponents
+- [ ] Digraph API
 
 
 # Lecture 1: Union-Find
