@@ -88,7 +88,7 @@
 
 - [x] Graph API
 - [x] Depth-First Search
-- [ ] Breadth-First Search
+- [x] Breadth-First Search
 - [ ] ConnectedComponents
 - [ ] Digraph API
 
