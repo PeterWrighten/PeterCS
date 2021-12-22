@@ -19,7 +19,7 @@
 | **Core** |**Core**|**Core**|
 Mathematics| &spades; &spades; &spades;| -
 Data Structure & Algorithms (C++) | &spades; &spades; &spades;  | [DSA](https://github.com/PeterWrighten/Peter_CS/blob/main/DataStructure/README.md)
-Algorithms(JAVA) | &spades; &spades; &spades;  | [Algo](https://github.com/PeterWrighten/Peter_CS/tree/main/Algorithms)
+Algorithms(JAVA) | &spades; &spades; &spades;  | [Algo](https://github.com/PeterWrighten/Algorithms)
 Computer System(Verilog/C) | &spades; &spades; &spades;  | [CSA](https://github.com/PeterWrighten/ComputerSystem)
 Computer Networking(Python/C++)  | &spades; &spades; &spades;  | [CNET](https://github.com/PeterWrighten/ComputerNetworking)
 Operating System(C)  | &spades; &spades; &spades; | [OS](https://github.com/PeterWrighten/OperatingSystem)
