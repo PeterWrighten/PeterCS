@@ -18,12 +18,12 @@
  :--:|--:|--:
 | **Core** |**Core**|**Core**|
 Mathematics| &spades; &spades; &spades;| -
-Data Structure & Algorithms (C++) | &spades; &spades; &spades;  | [DSA](https://github.com/PeterWrighten/Peter_CS/blob/main/DataStructure/README.md)
+Data Structure(C/C++)| &spades; &spades; | [DSA](./DataStructure/README.md)
 Algorithms(JAVA) | &spades; &spades; &spades;  | [Algo](https://github.com/PeterWrighten/Algorithms)
 Computer System(Verilog/C) | &spades; &spades; &spades;  | [CSA](https://github.com/PeterWrighten/ComputerSystem)
 Computer Networking(Python/C++)  | &spades; &spades; &spades;  | [CNET](https://github.com/PeterWrighten/ComputerNetworking)
 Operating System(C)  | &spades; &spades; &spades; | [OS](https://github.com/PeterWrighten/OperatingSystem)
-Compiler(C)  | &spades; &spades; &spades;  | [CP](https://github.com/PeterWrighten/Compiler)
+Compiler(C++)  | &spades; &spades; &spades;  | [CP](https://github.com/PeterWrighten/Compiler)
 |**App**|**App**|**App**|
 Machine Learning(Python3)  | &spades; &spades;  | [ML](https://github.com/PeterWrighten/MachineLearning)
 Deep Learning(Python3)  | &spades; &spades;  | [DL](https://github.com/PeterWrighten/DeepLearning)
@@ -31,7 +31,7 @@ Database(SQL/C++)  | &spades; &spades; &spades;  |  [DB](https://github.com/Pete
 Computer Graphics(C/C++)| &spades; &spades; &spades; | [CG](https://github.com/PeterWrighten/Computer_Graphics)
 Computer Vision(Python3)| &spades; &spades;| - 
 Software Engineering(JAVA/Rust)| &spades; &spades;| -
-Browser(JAVA/C++/JS)| &spades; &spades; &spades;|[BW]()
+Browser(JAVA/C++/JS)| &spades; &spades; &spades;|[BW](https://github.com/PeterWrighten/Peters_BrowserEngine)
 Information Security(C++/C)| &spades; &spades; &spades;| -
 
 

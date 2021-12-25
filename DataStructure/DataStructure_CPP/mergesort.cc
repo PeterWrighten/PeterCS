@@ -7,13 +7,13 @@ using namespace std;
 class Mergesort
 {
 public:
-    void merge(int nums[], int lo, int mid, int hi)
+    void merge(vector<int>& nums, int lo, int mid, int hi)
     {
         int i = lo;
         int j = mid + 1;
         int len = hi - lo + 1;
         int k = 0;
-        int *result = new int[len];
+        vector<int> result(len);
         for(k = 0; k < len; k++)
         {
             if(i > mid)  result[k] = nums[j++];
@@ -25,11 +25,11 @@ public:
         {
             nums[i] = result[k];
         }
-        delete []result;
+        vector<int>().swap(result);
 
     }
 
-    void sort(int nums[], int lo, int hi)
+    void sort(vector<int>& nums, int lo, int hi)
     {
         if(lo >= hi)    return;
         int mid = lo + (hi - lo) / 2;
@@ -42,25 +42,21 @@ public:
 
 int main()
 {
-    int *nums;
-    int n;
-    int tmp;
-    cout<<"How many Numbers would you wanna sort? "<<endl;
-    cin>> n;
-    nums = new int[n];
-
-    for(int i = 0; i < n; i++)
+    vector<int> nums;
+    while(1)
     {
+        string tmp;
         cout<<"Input number: "<<endl;
-        cin>> tmp;
-        nums[i] = tmp;
+        cin>>tmp;
+        if(!tmp.compare("quit"))    break;
+        nums.push_back(stoi(tmp));
     }
 
     cout<<"-----------------------------------"<<endl;
     Mergesort m;
-    m.sort(nums, 0, n - 1);
-    for(int i = 0; i < n; i++)
+    m.sort(nums, 0, nums.size() - 1);
+    for(auto itr = nums.begin(); itr != nums.end(); itr++)
     {
-        cout<< nums[i] <<endl;
+        cout<< *itr<<endl;
     }
 }
