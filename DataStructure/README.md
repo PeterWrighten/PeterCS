@@ -4,4 +4,4 @@ In this part, I followed the pace of my college's Courses. Unfortunately, becaus
 
 [DataStructure Implemented by C](./DataStructure_C/)
 
-[DataStructure Implemented by C++](./DataStructure_cpp)
+[DataStructure Implemented by C++](./DataStructure_CPP)
