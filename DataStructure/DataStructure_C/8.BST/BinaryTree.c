@@ -3,9 +3,9 @@
 
 typedef struct tree{
 	int x;
-	struct *parent;
-	struct *left;
-	struct *right;
+	struct tree* parent;
+	struct tree* left;
+	struct tree* right;
 
 } tree;
 
@@ -59,9 +59,9 @@ tree *insert(tree **t, int j, tree *parent){
 		return *t;
 	}
 	if(j < (*t)->x){
-		insert(&((*l)->left), j, *t);
+		insert(&((*t)->left), j, *t);
 	}else{
-		insert(&((*l)->right), j, *t);
+		insert(&((*t)->right), j, *t);
 	}
 
 }

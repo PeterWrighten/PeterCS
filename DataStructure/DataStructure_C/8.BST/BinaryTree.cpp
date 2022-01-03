@@ -16,11 +16,11 @@ public:
 	tree *tem;
 	int tmp;
 	binarytree();
-	tree *root(tree *t);
-	tree *search_tree(tree *t, int i);
-	tree *find_min(tree *t);
-	tree *find_max(tree *t);
-	tree *insert(tree **t, int i, tree *p);
+	tree *root(tree* t);
+	tree *search_tree(tree* t, int i);
+	tree *find_min(tree* t);
+	tree *find_max(tree* t);
+	tree *insert(tree** t, int i, tree *p);
     void delete_tree(int i, tree *t);
 	void traverse(tree *t);
 	void inorder(tree *t);
@@ -31,7 +31,7 @@ binarytree::binarytree(){
 
 }
 
-tree *binarytree::root(tree *t){
+tree* binarytree::root(tree* t){
 	tem = t;
 	while(tem != NULL){
 		tem = tem->parent;
@@ -55,7 +55,7 @@ tree *binarytree::search_tree(tree *t, int i){
 
 }
 
-tree *binarytree::find_min(tree *t){
+tree* binarytree::find_min(tree* t){
 
 	if(t == NULL){
 		return NULL;
@@ -115,7 +115,7 @@ void binarytree::inorder(tree *t){
 	}
     if( (t->right)->x <= t->x ){
 		tmp = (t->right)->x;
-		(t->right)-> = t->x;
+		(t->right)->x = t->x;
 		t->x = tmp;
 	}
 	if(t->right == NULL){
@@ -145,7 +145,7 @@ void binarytree::delete_tree(int i, tree *t){
 
 int main(){
 
-	binarytree btree = new binarytree();
+	binarytree *btree = new binarytree();
 	int t;
 	int x;
 	tree *tree[tree_size];
@@ -164,7 +164,7 @@ int main(){
 
 	switch(x){
 		case 1:
-            btree.find_max(tree[0]);
+            btree->find_max(tree[0]);
 
 		case 2:
 
