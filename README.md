@@ -21,7 +21,7 @@ Mathematics & Programming Language|&spades; &spades; &spades;|[Pre](https://gith
 Data Structure(C/C++)| &spades; &spades; | [DSA](./DataStructure/README.md)
 Algorithms(JAVA) | &spades; &spades; &spades;  | [Algo](https://github.com/PeterWrighten/Algorithms)
 Computer System(Verilog/C) | &spades; &spades; &spades;  | [CSA](https://github.com/PeterWrighten/ComputerSystem)
-Operating System(C)  | &spades; &spades; &spades; | [OS](https://github.com/PeterWrighten/OperatingSystem)
+Operating System(C/Rust)  | &spades; &spades; &spades; | [OS](https://github.com/PeterWrighten/OperatingSystem)
 Computer Networking(Python/C++)  | &spades; &spades; &spades;  | [CNET](https://github.com/PeterWrighten/ComputerNetworking)
 Compiler(C++)  | &spades; &spades; &spades;  | [CP](https://github.com/PeterWrighten/Compiler)
 |**App**|**App**|**App**|
