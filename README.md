@@ -20,14 +20,14 @@
 Mathematics & Programming Language|&spades; &spades; &spades;|[Pre](https://github.com/PeterWrighten/Prerequisites)
 Data Structure(C/C++)| &spades; &spades; | [DSA](./DataStructure/README.md)
 Algorithms(JAVA) | &spades; &spades; &spades;  | [Algo](https://github.com/PeterWrighten/Algorithms)
-Computer System(Verilog/C) | &spades; &spades; &spades;  | [CSA](https://github.com/PeterWrighten/ComputerSystem)
+Computer System(SystemVerilog/C) | &spades; &spades; &spades;  | [CSA](https://github.com/PeterWrighten/ComputerSystem)
 Operating System(C/Rust)  | &spades; &spades; &spades; | [OS](https://github.com/PeterWrighten/OperatingSystem)
 Computer Networking(Python/C++)  | &spades; &spades; &spades;  | [CNET](https://github.com/PeterWrighten/ComputerNetworking)
-Compiler(C++)  | &spades; &spades; &spades;  | [CP](https://github.com/PeterWrighten/Compiler)
+Compiler(C++/Rust)  | &spades; &spades; &spades;  | [CP](https://github.com/PeterWrighten/Compiler)
 |**App**|**App**|**App**|
 Machine Learning(Python3)  | &spades; &spades;  | [ML](https://github.com/PeterWrighten/MachineLearning)
 Deep Learning(Python3)  | &spades; &spades;  | [DL](https://github.com/PeterWrighten/DeepLearning)
-Database(SQL/C++)  | &spades; &spades; &spades;  |  [DB](https://github.com/PeterWrighten/Database)
+Database(C++/Rust)  | &spades; &spades; &spades;  |  [DB](https://github.com/PeterWrighten/Database)
 Computer Graphics(C/C++)| &spades; &spades; &spades; | [CG](https://github.com/PeterWrighten/Computer_Graphics)
 Computer Vision(Python3)| &spades; &spades;| - 
 Software Engineering(JAVA/Rust)| &spades; &spades;| -
