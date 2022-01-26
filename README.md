@@ -25,7 +25,7 @@ Operating System(C/Rust)  | &spades; &spades; &spades; | [OS](https://github.com
 Computer Networking(Python/C++)  | &spades; &spades; &spades;  | [CNET](https://github.com/PeterWrighten/ComputerNetworking)
 Compiler(C++/Rust)  | &spades; &spades; &spades;  | [CP](https://github.com/PeterWrighten/Compiler)
 |**App**|**App**|**App**|
-Machine Learning(Python3)  | &spades; &spades;  | [ML](https://github.com/PeterWrighten/MachineLearning)
+~~Machine Learning(Python3)[Basic Level]~~  | &spades; &spades;  | [ML](https://github.com/PeterWrighten/MachineLearning)
 Deep Learning(Python3)  | &spades; &spades;  | [DL](https://github.com/PeterWrighten/DeepLearning)
 Database(C++/Rust)  | &spades; &spades; &spades;  |  [DB](https://github.com/PeterWrighten/Database)
 Computer Graphics(C/C++)| &spades; &spades; &spades; | [CG](https://github.com/PeterWrighten/Computer_Graphics)
