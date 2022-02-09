@@ -38,7 +38,7 @@
 
  The Coding is the most important for Undergraduate major in CS, So I wanna implement some Projects to exercise it.
 
- [**Projects**](https://github.com/PeterWrighten/Some_Proj)
+ [**Projects**](）
 
 ## Extension
 
