@@ -38,7 +38,7 @@
 
  The Coding is the most important for Undergraduate major in CS, So I wanna implement some Projects to exercise it.
 
-You could check it on my other repositories:)
+You could check it on [my other repositories](https://github.com/PeterWrighten?tab=repositories) :)
 
 ## Extension
 
