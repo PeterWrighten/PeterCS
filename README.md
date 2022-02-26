@@ -24,6 +24,7 @@
 |     ~~Operating System(Rust~~/C)[30%]     | &spades; &spades; &spades; |      [OS](https://github.com/PeterWrighten/OperatingSystem) |
 | ~~Computer Networking(Python~~/C++)[20%] | &spades; &spades; &spades; | [CNET](https://github.com/PeterWrighten/ComputerNetworking) |
 |             Compiler(C++/Rust)             | &spades; &spades; &spades; |             [CP](https://github.com/PeterWrighten/Compiler) |
+|Distributed System(Rust/Go)| &spades; &spades; &spades; |[DS](https://github.com/PeterWrighten/DistributedSystem)|
 |               **App**               |              **App** |                                            **App** |
 |    ~~Machine Learning(Python3)~~[40%]    |          &spades; &spades; |      [ML](https://github.com/PeterWrighten/MachineLearning) |
 |           Deep Learning(Python3)           |          &spades; &spades; |         [DL](https://github.com/PeterWrighten/DeepLearning) |
@@ -33,6 +34,7 @@
 |      Software Engineering(JAVA/Rust)      |          &spades; &spades; |                                                        - |
 |            Browser(JAVA/C++/JS)            | &spades; &spades; &spades; | [BW](https://github.com/PeterWrighten/Peters_BrowserEngine) |
 |        Information Security(C++/C)        | &spades; &spades; &spades; |                                                        - |
+
 
 ## Projects
 
