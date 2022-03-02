@@ -34,6 +34,8 @@
 |      Software Engineering(JAVA/Rust)      |          &spades; &spades; |                                                        - |
 |            Browser(JAVA/C++/JS)            | &spades; &spades; &spades; | [BW](https://github.com/PeterWrighten/Peters_BrowserEngine) |
 |        Information Security(C++/C)        | &spades; &spades; &spades; |                                                        - |
+|**Academic**|**Academic**|**Academic**|
+|Paper Reimplement|&spades; &spades; &spades;|[PR]()|
 
 
 ## Projects
