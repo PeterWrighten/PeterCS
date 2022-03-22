@@ -26,8 +26,7 @@
 |             Compiler(C++/Rust)             | &spades; &spades; &spades; |             [CP](https://github.com/PeterWrighten/Compiler) |
 |Distributed System(Rust/Go)| &spades; &spades; &spades; |[DS](https://github.com/PeterWrighten/DistributedSystem)|
 |               **App**               |              **App** |                                            **App** |
-|    ~~Machine Learning(Python3)~~[40%]    |          &spades; &spades; |      [ML](https://github.com/PeterWrighten/MachineLearning) |
-|           Deep Learning(Python3)           |          &spades; &spades; |         [DL](https://github.com/PeterWrighten/DeepLearning) |
+|    ~~AI(Python3/Rust)~~[10%]    |          &spades; &spades; |      [AI](https://github.com/PeterWrighten/PetersKaggle) |
 |             Database(C++/Rust)             | &spades; &spades; &spades; |             [DB](https://github.com/PeterWrighten/Database) |
 |          Computer Graphics(C/C++)          | &spades; &spades; &spades; |    [CG](https://github.com/PeterWrighten/Computer_Graphics) |
 |          Computer Vision(Python3)          |          &spades; &spades; |                                                        - |
