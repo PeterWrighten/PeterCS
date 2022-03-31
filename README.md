@@ -28,13 +28,13 @@
 |               **App**               |              **App** |                                            **App** |
 |    ~~AI(Python3/Rust)~~[10%]    |          &spades; &spades; |      [AI](https://github.com/PeterWrighten/PetersKaggle) |
 |             Database(C++/Rust)             | &spades; &spades; &spades; |             [DB](https://github.com/PeterWrighten/Database) |
-|          Computer Graphics(C/C++)          | &spades; &spades; &spades; |    [CG](https://github.com/PeterWrighten/Computer_Graphics) |
+|          Computer Graphics(C/C++/Rust)          | &spades; &spades; &spades; |    [CG](https://github.com/PeterWrighten/Computer_Graphics) |
 |          Computer Vision(Python3)          |          &spades; &spades; |                                                        - |
 |      Software Engineering(JAVA/Rust)      |          &spades; &spades; |                                                        - |
-|            Browser(JAVA/C++/JS)            | &spades; &spades; &spades; | [BW](https://github.com/PeterWrighten/Peters_BrowserEngine) |
-|        Information Security(C++/C)        | &spades; &spades; &spades; |                                                        - |
+|            Browser(JAVA/C++/JS/Rust)            | &spades; &spades; &spades; | [BW](https://github.com/PeterWrighten/Peters_BrowserEngine) |
+|        Information Security(C++/C/Rust)        | &spades; &spades; &spades; |                                                        - |
 |**Academic**|**Academic**|**Academic**|
-|Paper Reimplement|&spades; &spades; &spades;|[PR]()|
+|Paper Reimplement(Java/C++/Rust)|&spades; &spades; &spades;|[PR](https://github.com/PeterWrighten/paper_reimpl)|
 
 
 ## Projects
