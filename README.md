@@ -4,11 +4,11 @@
 
  A Roadmap To Be A Master Of Computer Science Powered by Peter.
 
-## Prerequisites
+## CheatSheet
 
-> With the study of Computer Science, I gradually realise that it is indispensable to take some prerequisites when you wanna begin to learn/research a specific field. Thus I set up A CORNER to focus on doing these dirty jobs.
+> With the study of Computer Science, I gradually realise that it is indispensable to take some prerequisites when you wanna begin to learn/research a specific field. However, that is actually a dirty job, and there are many tiny nontrival points to remember. I would take summary in several cheatsheets to facilitate reviewing them.
 
-[Private]~~Prerequisites~~
+[**CheatSheet**](./Memo/README.md)
 
 ## Courses
 
