@@ -14,7 +14,7 @@ Node* new(int ele) {
 }
 
 Node* push(Node* top, int x) {
-    if(top = NULL) {
+    if(top == NULL) {
         return new(x);
     } else {
         Node* new_top = new(x);
@@ -23,16 +23,23 @@ Node* push(Node* top, int x) {
     }
 }
 
-int pop(Node* top) {
+int get(Node* top) {
+    if(top == NULL) {
+        printf("Underflow!");
+        exit(1);
+    }
+    return top->ele;
+}
+
+Node* pop(Node* top) {
     if(top == NULL) {
         printf("Underflow!");
         exit(1);
     } 
-    int ele = top->ele;
     Node* tmp = top;
     top = top->next;
     free(tmp);
-    return ele;
+    return top;
 }
 
 int main(void) {
@@ -44,6 +51,9 @@ int main(void) {
         if(ele == 0) break;
         top = push(top, ele);
     }
-    ele = pop(top);
-    printf("%d", ele);
+    while(1) {
+      ele = get(top);
+      top = pop(top);
+      printf("%d\n", ele);
+    }
 }
